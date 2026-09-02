@@ -1,3900 +1,4128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
 
-<title>
-    Toshani Media House | 360° Advertising & Brand Growth
-</title>
+    <title>
+        Toshani Media House | 360° Advertising & Brand Growth
+    </title>
 
-<meta
-    name="description"
-    content="Toshani Media House provides 360° advertising and brand growth solutions across TV, radio, print, billboards, moving vehicle advertising, digital marketing and branding."
->
+    <meta
+        name="description"
+        content="Toshani Media House provides 360° advertising and brand growth solutions across TV, radio, print, outdoor advertising, moving vehicle advertising, digital marketing and branding."
+    >
 
-<meta
-    name="keywords"
-    content="Toshani Media House, advertising agency, media house, TV advertising, radio advertising, newspaper ads, billboard advertising, KSRTC advertising, moving vehicle ads, digital marketing, branding"
->
+    <meta
+        name="keywords"
+        content="Toshani Media House, advertising agency, TV advertising, radio advertising, newspaper advertising, billboard advertising, moving vehicle advertising, digital marketing, branding, media house"
+    >
 
-<meta
-    name="author"
-    content="Toshani Media House"
->
+    <meta
+        name="author"
+        content="Toshani Media House"
+    >
 
-<meta
-    property="og:title"
-    content="Toshani Media House | 360° Advertising & Brand Growth"
->
+    <meta
+        property="og:title"
+        content="Toshani Media House | 360° Advertising & Brand Growth"
+    >
 
-<meta
-    property="og:description"
-    content="Ideas that inspire. Campaigns that deliver. Brands that last."
->
+    <meta
+        property="og:description"
+        content="Ideas that inspire. Campaigns that deliver. Brands that last."
+    >
 
-<meta
-    property="og:type"
-    content="website"
->
+    <meta
+        property="og:type"
+        content="website"
+    >
 
 
-<style>
+    <style>
 
-/* =========================================================
-   ROOT
-========================================================= */
+        /* =====================================================
+           ROOT
+        ===================================================== */
 
-:root {
+        :root {
 
-    --navy: #092b50;
-    --navy-dark: #061d37;
+            --navy: #092b50;
+            --navy-dark: #061d37;
 
-    --blue: #0879c9;
-    --blue-light: #16a8df;
+            --blue: #0879c9;
+            --blue-light: #16a8df;
 
-    --orange: #f58216;
-    --orange-dark: #e86600;
+            --orange: #f58216;
+            --orange-dark: #e86600;
 
-    --white: #ffffff;
+            --white: #ffffff;
 
-    --bg: #f6f9fc;
-    --bg-soft: #eef5fa;
+            --bg: #f6f9fc;
+            --bg-soft: #eef5fa;
 
-    --text: #17324d;
-    --muted: #697b8d;
+            --text: #17324d;
+            --muted: #687b8d;
 
-    --border: rgba(9,43,80,.10);
+            --border: rgba(9,43,80,.10);
 
-    --shadow:
-        0 18px 50px rgba(9,43,80,.09);
+            --instagram-pink: #E1306C;
+            --linkedin-blue: #0A66C2;
+            --whatsapp-green: #25D366;
+            --phone-green: #16A34A;
+            --email-red: #D44638;
 
-    --shadow-heavy:
-        0 25px 70px rgba(9,43,80,.15);
+            --shadow:
+                0 18px 50px rgba(9,43,80,.09);
 
-    --radius-lg: 30px;
-    --radius-md: 20px;
-    --radius-sm: 14px;
+            --shadow-heavy:
+                0 28px 70px rgba(9,43,80,.15);
 
-}
+        }
 
 
-/* =========================================================
-   RESET
-========================================================= */
+        /* =====================================================
+           RESET
+        ===================================================== */
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 80px;
-}
 
-body {
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 75px;
+        }
 
-    font-family:
-        Arial,
-        Helvetica,
-        sans-serif;
 
-    background:
-        var(--white);
+        body {
 
-    color:
-        var(--text);
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
 
-    line-height:
-        1.6;
+            background:
+                #ffffff;
 
-    overflow-x:
-        hidden;
+            color:
+                var(--text);
 
-    -webkit-font-smoothing:
-        antialiased;
+            line-height:
+                1.6;
 
-}
+            overflow-x:
+                hidden;
 
-img {
+            -webkit-font-smoothing:
+                antialiased;
 
-    display:
-        block;
+        }
 
-    max-width:
-        100%;
 
-}
+        img {
+            display: block;
+            max-width: 100%;
+        }
 
-a {
 
-    color:
-        inherit;
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
 
-    text-decoration:
-        none;
 
-}
+        button {
+            font: inherit;
+        }
 
-button {
 
-    border:
-        none;
+        .container {
 
-    font:
-        inherit;
+            width:
+                min(1180px, 92%);
 
-}
+            margin:
+                auto;
 
+        }
 
-/* =========================================================
-   GLOBAL CONTAINER
-========================================================= */
 
-.container {
+        /* =====================================================
+           HEADER
+        ===================================================== */
 
-    width:
-        min(1180px, 92%);
+        .site-header {
 
-    margin:
-        auto;
+            position:
+                fixed;
 
-}
+            top:
+                0;
 
+            left:
+                0;
 
-/* =========================================================
-   HEADER
-========================================================= */
+            right:
+                0;
 
-.site-header {
+            z-index:
+                5000;
 
-    position:
-        fixed;
+            background:
+                rgba(255,255,255,.96);
 
-    top:
-        0;
+            backdrop-filter:
+                blur(18px);
 
-    left:
-        0;
+            -webkit-backdrop-filter:
+                blur(18px);
 
-    right:
-        0;
+            border-bottom:
+                1px solid
+                rgba(9,43,80,.07);
 
-    z-index:
-        2000;
+            transition:
+                .3s ease;
 
-    background:
-        rgba(255,255,255,.94);
+        }
 
-    backdrop-filter:
-        blur(18px);
 
-    -webkit-backdrop-filter:
-        blur(18px);
+        .navbar {
 
-    border-bottom:
-        1px solid rgba(9,43,80,.07);
+            min-height:
+                76px;
 
-    transition:
-        .3s ease;
+            display:
+                flex;
 
-}
+            align-items:
+                center;
 
-.navbar {
+            justify-content:
+                space-between;
 
-    min-height:
-        78px;
+            gap:
+                18px;
 
-    display:
-        flex;
+        }
 
-    align-items:
-        center;
 
-    justify-content:
-        space-between;
+        .brand {
 
-    gap:
-        20px;
+            display:
+                flex;
 
-}
+            align-items:
+                center;
 
-.brand {
+            flex-shrink:
+                0;
 
-    display:
-        flex;
+        }
 
-    align-items:
-        center;
 
-    flex-shrink:
-        0;
+        .brand img {
 
-}
+            width:
+                185px;
 
-.brand img {
+            height:
+                auto;
 
-    width:
-        190px;
+        }
 
-    height:
-        auto;
 
-}
+        /* =====================================================
+           DESKTOP NAV
+        ===================================================== */
 
+        .desktop-nav {
 
-/* =========================================================
-   DESKTOP NAV
-========================================================= */
+            display:
+                flex;
 
-.desktop-nav {
+            align-items:
+                center;
 
-    display:
-        flex;
+            gap:
+                17px;
 
-    align-items:
-        center;
+        }
 
-    gap:
-        20px;
 
-}
+        .desktop-nav > a:not(.nav-social):not(.header-call) {
 
-.desktop-nav > a {
+            color:
+                var(--navy);
 
-    color:
-        var(--navy);
+            font-size:
+                13px;
 
-    font-size:
-        13px;
+            font-weight:
+                800;
 
-    font-weight:
-        800;
+            transition:
+                .25s ease;
 
-    transition:
-        .25s ease;
+        }
 
-}
 
-.desktop-nav > a:hover {
+        .desktop-nav > a:not(.nav-social):not(.header-call):hover {
 
-    color:
-        var(--orange);
+            color:
+                var(--orange);
 
-}
+        }
 
 
-/* =========================================================
-   DESKTOP SOCIAL
-========================================================= */
+        /* =====================================================
+           SOCIAL ICON CIRCLES
+        ===================================================== */
 
-.social-icon {
+        .nav-social {
 
-    width:
-        38px;
+            width:
+                38px;
 
-    height:
-        38px;
+            height:
+                38px;
 
-    display:
-        grid;
+            display:
+                grid;
 
-    place-items:
-        center;
+            place-items:
+                center;
 
-    border-radius:
-        50%;
+            border-radius:
+                50%;
 
-    background:
-        #fff;
+            background:
+                #ffffff;
 
-    border:
-        1px solid
-        var(--border);
+            border:
+                1px solid
+                var(--border);
 
-    color:
-        var(--navy);
+            transition:
+                .3s ease;
 
-    transition:
-        .3s ease;
+        }
 
-}
 
-.social-icon svg {
+        .nav-social:hover {
 
-    width:
-        17px;
+            transform:
+                translateY(-3px);
 
-    height:
-        17px;
+            box-shadow:
+                0 10px 25px
+                rgba(9,43,80,.12);
 
-    fill:
-        currentColor;
+        }
 
-}
 
-.social-icon:hover {
+        .nav-social svg {
 
-    transform:
-        translateY(-3px);
+            width:
+                18px;
 
-    box-shadow:
-        0 10px 25px
-        rgba(9,43,80,.10);
+            height:
+                18px;
 
-}
+        }
 
-.instagram:hover {
 
-    color:
-        #E1306C;
+        /* =====================================================
+           HEADER CALL
+        ===================================================== */
 
-}
+        .header-call {
 
-.linkedin:hover {
+            min-height:
+                42px;
 
-    color:
-        #0A66C2;
+            display:
+                inline-flex;
 
-}
+            align-items:
+                center;
 
+            justify-content:
+                center;
 
-/* =========================================================
-   HEADER CTA
-========================================================= */
+            gap:
+                7px;
 
-.header-call {
+            padding:
+                0 16px;
 
-    display:
-        inline-flex;
+            border-radius:
+                50px;
 
-    align-items:
-        center;
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--navy),
+                    var(--blue)
+                );
 
-    justify-content:
-        center;
+            color:
+                #ffffff !important;
 
-    gap:
-        8px;
+            font-size:
+                12px;
 
-    min-height:
-        42px;
+            font-weight:
+                900;
 
-    padding:
-        0 17px;
+            white-space:
+                nowrap;
 
-    border-radius:
-        50px;
+            transition:
+                .3s ease;
 
-    color:
-        #fff !important;
+        }
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--navy),
-            var(--blue)
-        );
 
-    font-size:
-        12px;
+        .header-call:hover {
 
-    font-weight:
-        900;
+            transform:
+                translateY(-2px);
 
-    white-space:
-        nowrap;
+        }
 
-    transition:
-        .3s ease;
 
-}
+        .header-call svg {
 
-.header-call:hover {
+            width:
+                15px;
 
-    transform:
-        translateY(-2px);
+            height:
+                15px;
 
-}
+        }
 
-.header-call svg {
 
-    width:
-        16px;
+        /* =====================================================
+           MOBILE HEADER CONTROLS
+        ===================================================== */
 
-    height:
-        16px;
+        .mobile-actions {
 
-    fill:
-        currentColor;
+            display:
+                none;
 
-}
+            align-items:
+                center;
 
+            gap:
+                6px;
 
-/* =========================================================
-   MOBILE HEADER CONTROLS
-========================================================= */
+        }
 
-.mobile-header-actions {
 
-    display:
-        none;
+        .mobile-menu-button {
 
-    align-items:
-        center;
+            width:
+                40px;
 
-    gap:
-        8px;
+            height:
+                40px;
 
-}
+            border:
+                none;
 
-.mobile-menu-button {
+            border-radius:
+                10px;
 
-    width:
-        44px;
+            background:
+                var(--bg-soft);
 
-    height:
-        44px;
+            color:
+                var(--navy);
 
-    display:
-        grid;
+            display:
+                grid;
 
-    place-items:
-        center;
+            place-items:
+                center;
 
-    border-radius:
-        12px;
+            cursor:
+                pointer;
 
-    background:
-        var(--bg-soft);
+        }
 
-    color:
-        var(--navy);
 
-    cursor:
-        pointer;
+        .menu-lines {
 
-}
+            display:
+                flex;
 
-.mobile-menu-button span {
+            flex-direction:
+                column;
 
-    display:
-        block;
+            gap:
+                4px;
 
-    width:
-        20px;
+        }
 
-    height:
-        2px;
 
-    margin:
-        3px 0;
+        .menu-lines span {
 
-    background:
-        currentColor;
+            display:
+                block;
 
-    border-radius:
-        5px;
+            width:
+                18px;
 
-}
+            height:
+                2px;
 
+            border-radius:
+                5px;
 
-/* =========================================================
-   MOBILE MENU
-========================================================= */
+            background:
+                currentColor;
 
-.mobile-menu {
+        }
 
-    display:
-        none;
 
-    position:
-        fixed;
+        /* =====================================================
+           MOBILE MENU
+        ===================================================== */
 
-    top:
-        78px;
+        .mobile-menu {
 
-    left:
-        10px;
+            display:
+                none;
 
-    right:
-        10px;
+            position:
+                fixed;
 
-    z-index:
-        1999;
+            top:
+                68px;
 
-    background:
-        #ffffff;
+            left:
+                8px;
 
-    border:
-        1px solid
-        var(--border);
+            right:
+                8px;
 
-    border-radius:
-        20px;
+            z-index:
+                4999;
 
-    padding:
-        10px;
+            padding:
+                8px;
 
-    box-shadow:
-        0 25px 60px
-        rgba(9,43,80,.16);
+            border-radius:
+                18px;
 
-}
+            background:
+                #ffffff;
 
-.mobile-menu.open {
+            border:
+                1px solid
+                var(--border);
 
-    display:
-        block;
+            box-shadow:
+                0 25px 60px
+                rgba(9,43,80,.15);
 
-}
+        }
 
-.mobile-menu a {
 
-    display:
-        flex;
+        .mobile-menu.open {
 
-    align-items:
-        center;
+            display:
+                block;
 
-    justify-content:
-        space-between;
+        }
 
-    min-height:
-        50px;
 
-    padding:
-        0 15px;
+        .mobile-menu a {
 
-    border-radius:
-        12px;
+            min-height:
+                45px;
 
-    color:
-        var(--navy);
+            display:
+                flex;
 
-    font-size:
-        14px;
+            align-items:
+                center;
 
-    font-weight:
-        800;
+            justify-content:
+                space-between;
 
-}
+            padding:
+                0 14px;
 
-.mobile-menu a:hover {
+            border-radius:
+                11px;
 
-    background:
-        var(--bg-soft);
+            color:
+                var(--navy);
 
-}
+            font-size:
+                13px;
 
-.mobile-menu .mobile-menu-cta {
+            font-weight:
+                800;
 
-    margin-top:
-        6px;
+        }
 
-    justify-content:
-        center;
 
-    color:
-        #fff;
+        .mobile-menu a:hover {
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--navy),
-            var(--blue)
-        );
+            background:
+                var(--bg-soft);
 
-}
+        }
 
 
-/* =========================================================
-   BUTTONS
-========================================================= */
+        .mobile-menu .menu-whatsapp {
 
-.btn {
+            justify-content:
+                center;
 
-    min-height:
-        48px;
+            margin-top:
+                5px;
 
-    display:
-        inline-flex;
+            color:
+                #ffffff;
 
-    align-items:
-        center;
+            background:
+                var(--whatsapp-green);
 
-    justify-content:
-        center;
+        }
 
-    gap:
-        9px;
 
-    padding:
-        0 20px;
+        /* =====================================================
+           BUTTONS
+        ===================================================== */
 
-    border-radius:
-        50px;
+        .btn {
 
-    font-size:
-        13px;
+            min-height:
+                48px;
 
-    font-weight:
-        900;
+            display:
+                inline-flex;
 
-    transition:
-        .3s ease;
+            align-items:
+                center;
 
-}
+            justify-content:
+                center;
 
-.btn svg {
+            gap:
+                8px;
 
-    width:
-        18px;
+            padding:
+                0 20px;
 
-    height:
-        18px;
+            border-radius:
+                50px;
 
-    fill:
-        currentColor;
+            font-size:
+                13px;
 
-    flex-shrink:
-        0;
+            font-weight:
+                900;
 
-}
+            transition:
+                .3s ease;
 
-.btn-primary {
+        }
 
-    color:
-        #fff;
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--navy),
-            var(--blue)
-        );
+        .btn:hover {
 
-    box-shadow:
-        0 14px 30px
-        rgba(8,121,201,.22);
+            transform:
+                translateY(-3px);
 
-}
+        }
 
-.btn-primary:hover {
 
-    transform:
-        translateY(-3px);
+        .btn svg {
 
-}
+            width:
+                18px;
 
-.btn-outline {
+            height:
+                18px;
 
-    color:
-        var(--navy);
+            flex-shrink:
+                0;
 
-    background:
-        #fff;
+        }
 
-    border:
-        1px solid
-        var(--border);
 
-}
+        .btn-primary {
 
-.btn-outline:hover {
+            color:
+                #ffffff;
 
-    transform:
-        translateY(-3px);
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--navy),
+                    var(--blue)
+                );
 
-    border-color:
-        rgba(8,121,201,.35);
+            box-shadow:
+                0 14px 30px
+                rgba(8,121,201,.20);
 
-}
+        }
 
 
-/* =========================================================
-   HERO
-========================================================= */
+        .btn-light {
 
-.hero {
+            color:
+                var(--navy);
 
-    min-height:
-        100svh;
+            background:
+                #ffffff;
 
-    padding:
-        145px 0 80px;
+            border:
+                1px solid
+                var(--border);
 
-    position:
-        relative;
+        }
 
-    overflow:
-        hidden;
 
-    background:
-        radial-gradient(
-            circle at 80% 15%,
-            rgba(22,168,223,.14),
-            transparent 28%
-        ),
+        /* =====================================================
+           HERO
+        ===================================================== */
 
-        radial-gradient(
-            circle at 10% 85%,
-            rgba(245,130,22,.10),
-            transparent 25%
-        ),
+        .hero {
 
-        linear-gradient(
-            135deg,
-            #ffffff,
-            #f3f9fd
-        );
+            min-height:
+                100svh;
 
-}
+            padding:
+                145px 0 70px;
 
-.hero::before {
+            position:
+                relative;
 
-    content:
-        "";
+            overflow:
+                hidden;
 
-    position:
-        absolute;
+            background:
 
-    width:
-        500px;
+                radial-gradient(
+                    circle at 82% 15%,
+                    rgba(22,168,223,.14),
+                    transparent 28%
+                ),
 
-    height:
-        500px;
+                radial-gradient(
+                    circle at 7% 85%,
+                    rgba(245,130,22,.10),
+                    transparent 26%
+                ),
 
-    top:
-        80px;
+                linear-gradient(
+                    135deg,
+                    #ffffff,
+                    #f3f9fd
+                );
 
-    right:
-        -220px;
+        }
 
-    border-radius:
-        50%;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(8,121,201,.08),
-            rgba(245,130,22,.10)
-        );
+        .hero::before {
 
-}
+            content:
+                "";
 
-.hero-grid {
+            position:
+                absolute;
 
-    min-height:
-        640px;
+            width:
+                520px;
 
-    display:
-        grid;
+            height:
+                520px;
 
-    grid-template-columns:
-        1.04fr .96fr;
+            top:
+                80px;
 
-    align-items:
-        center;
+            right:
+                -230px;
 
-    gap:
-        55px;
+            border-radius:
+                50%;
 
-    position:
-        relative;
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(8,121,201,.08),
+                    rgba(245,130,22,.10)
+                );
 
-    z-index:
-        2;
+        }
 
-}
 
-.hero-copy {
+        .hero-grid {
 
-    max-width:
-        670px;
+            min-height:
+                620px;
 
-}
+            position:
+                relative;
 
-.eyebrow {
+            z-index:
+                2;
 
-    display:
-        inline-flex;
+            display:
+                grid;
 
-    align-items:
-        center;
+            grid-template-columns:
+                1.04fr .96fr;
 
-    gap:
-        9px;
+            align-items:
+                center;
 
-    padding:
-        8px 13px;
+            gap:
+                55px;
 
-    margin-bottom:
-        22px;
+        }
 
-    border-radius:
-        50px;
 
-    background:
-        rgba(8,121,201,.07);
+        .hero-copy {
 
-    border:
-        1px solid
-        rgba(8,121,201,.12);
+            max-width:
+                690px;
 
-    color:
-        var(--blue);
+        }
 
-    font-size:
-        10px;
 
-    font-weight:
-        900;
+        .eyebrow {
 
-    letter-spacing:
-        1.6px;
+            display:
+                inline-flex;
 
-    text-transform:
-        uppercase;
+            align-items:
+                center;
 
-}
+            gap:
+                8px;
 
-.eyebrow span {
+            max-width:
+                100%;
 
-    width:
-        7px;
+            min-height:
+                31px;
 
-    height:
-        7px;
+            padding:
+                6px 12px;
 
-    border-radius:
-        50%;
+            margin-bottom:
+                20px;
 
-    background:
-        var(--orange);
+            border-radius:
+                999px;
 
-}
+            color:
+                var(--blue);
 
-.hero h1 {
+            background:
+                rgba(8,121,201,.07);
 
-    font-size:
-        clamp(52px, 6vw, 82px);
+            border:
+                1px solid
+                rgba(8,121,201,.12);
 
-    line-height:
-        .97;
+            font-size:
+                10px;
 
-    letter-spacing:
-        -3px;
+            font-weight:
+                900;
 
-    color:
-        var(--navy-dark);
+            letter-spacing:
+                1.5px;
 
-    margin-bottom:
-        25px;
+            text-transform:
+                uppercase;
 
-}
+        }
 
-.hero h1 .orange {
 
-    color:
-        var(--orange);
+        .eyebrow-dot {
 
-}
+            width:
+                7px;
 
-.hero-description {
+            height:
+                7px;
 
-    max-width:
-        620px;
+            flex:
+                0 0 7px;
 
-    color:
-        var(--muted);
+            border-radius:
+                50%;
 
-    font-size:
-        16px;
+            background:
+                var(--orange);
 
-    line-height:
-        1.8;
+        }
 
-    margin-bottom:
-        28px;
 
-}
+        .hero h1 {
 
-.hero-description strong {
+            margin:
+                0 0 22px;
 
-    color:
-        var(--navy);
+            color:
+                var(--navy-dark);
 
-}
+            font-size:
+                clamp(50px,6vw,82px);
 
-.hero-buttons {
+            line-height:
+                .96;
 
-    display:
-        flex;
+            letter-spacing:
+                -3px;
 
-    flex-wrap:
-        wrap;
+        }
 
-    gap:
-        10px;
 
-}
+        .hero h1 span {
 
-.hero-social {
+            color:
+                var(--orange);
 
-    display:
-        flex;
+        }
 
-    flex-wrap:
-        wrap;
 
-    gap:
-        8px;
+        .hero-description {
 
-    margin-top:
-        16px;
+            max-width:
+                620px;
 
-}
+            margin-bottom:
+                26px;
 
-.social-button {
+            color:
+                var(--muted);
 
-    display:
-        inline-flex;
+            font-size:
+                16px;
 
-    align-items:
-        center;
+            line-height:
+                1.8;
 
-    justify-content:
-        center;
+        }
 
-    gap:
-        8px;
 
-    min-height:
-        40px;
+        .hero-description strong {
 
-    padding:
-        0 13px;
+            color:
+                var(--navy);
 
-    border-radius:
-        11px;
+        }
 
-    background:
-        #fff;
 
-    border:
-        1px solid
-        var(--border);
+        .hero-buttons {
 
-    color:
-        var(--navy);
+            display:
+                flex;
 
-    font-size:
-        11px;
+            flex-wrap:
+                wrap;
 
-    font-weight:
-        900;
+            gap:
+                9px;
 
-    box-shadow:
-        0 7px 22px
-        rgba(9,43,80,.06);
+        }
 
-    transition:
-        .3s ease;
 
-}
+        /* =====================================================
+           HERO SOCIALS
+        ===================================================== */
 
-.social-button:hover {
+        .social-links {
 
-    transform:
-        translateY(-3px);
+            display:
+                flex;
 
-}
+            flex-wrap:
+                wrap;
 
-.social-button svg {
+            gap:
+                8px;
 
-    width:
-        17px;
+            margin-top:
+                15px;
 
-    height:
-        17px;
+        }
 
-    fill:
-        currentColor;
 
-}
+        .social-link {
 
-.social-button.instagram-button:hover {
+            min-height:
+                40px;
 
-    color:
-        #E1306C;
+            display:
+                inline-flex;
 
-}
+            align-items:
+                center;
 
-.social-button.linkedin-button:hover {
+            justify-content:
+                center;
 
-    color:
-        #0A66C2;
+            gap:
+                7px;
 
-}
+            padding:
+                0 13px;
 
-.social-button.email-button:hover {
+            border-radius:
+                11px;
 
-    color:
-        var(--blue);
+            background:
+                #ffffff;
 
-}
+            border:
+                1px solid
+                var(--border);
 
+            box-shadow:
+                0 7px 20px
+                rgba(9,43,80,.05);
 
-/* =========================================================
-   HERO LOGO
-========================================================= */
+            font-size:
+                11px;
 
-.hero-visual {
+            font-weight:
+                900;
 
-    position:
-        relative;
+            transition:
+                .3s ease;
 
-    display:
-        flex;
+        }
 
-    justify-content:
-        center;
 
-    align-items:
-        center;
+        .social-link:hover {
 
-}
+            transform:
+                translateY(-3px);
 
-.logo-card {
+            box-shadow:
+                0 12px 28px
+                rgba(9,43,80,.11);
 
-    width:
-        min(505px,100%);
+        }
 
-    padding:
-        44px;
 
-    border-radius:
-        34px;
+        .social-link svg {
 
-    background:
-        rgba(255,255,255,.87);
+            width:
+                18px;
 
-    border:
-        1px solid
-        rgba(255,255,255,.95);
+            height:
+                18px;
 
-    box-shadow:
-        0 30px 80px
-        rgba(9,43,80,.13);
+        }
 
-    backdrop-filter:
-        blur(15px);
 
-    position:
-        relative;
+        .instagram-link {
 
-    z-index:
-        2;
+            color:
+                var(--instagram-pink);
 
-}
+        }
 
-.logo-card img {
 
-    width:
-        100%;
+        .linkedin-link {
 
-    max-width:
-        420px;
+            color:
+                var(--linkedin-blue);
 
-    margin:
-        auto;
+        }
 
-}
 
-.floating-card {
+        .email-link {
 
-    position:
-        absolute;
+            color:
+                var(--email-red);
 
-    z-index:
-        5;
+        }
 
-    padding:
-        15px 18px;
 
-    background:
-        #fff;
+        /* =====================================================
+           HERO LOGO
+        ===================================================== */
 
-    border-radius:
-        15px;
+        .hero-visual {
 
-    box-shadow:
-        0 18px 45px
-        rgba(9,43,80,.13);
+            display:
+                flex;
 
-}
+            justify-content:
+                center;
 
-.floating-card strong {
+            align-items:
+                center;
 
-    display:
-        block;
+            position:
+                relative;
 
-    color:
-        var(--navy);
+        }
 
-    font-size:
-        19px;
 
-}
+        .logo-card {
 
-.floating-card small {
+            width:
+                min(500px,100%);
 
-    color:
-        var(--muted);
+            padding:
+                40px;
 
-    font-size:
-        9px;
+            border-radius:
+                32px;
 
-    font-weight:
-        900;
+            background:
+                rgba(255,255,255,.88);
 
-    letter-spacing:
-        .7px;
+            border:
+                1px solid
+                rgba(255,255,255,.95);
 
-}
+            box-shadow:
+                0 30px 75px
+                rgba(9,43,80,.13);
 
-.float-one {
+            position:
+                relative;
 
-    left:
-        -22px;
+            z-index:
+                2;
 
-    top:
-        16%;
+        }
 
-}
 
-.float-two {
+        .logo-card img {
 
-    right:
-        -15px;
+            width:
+                min(420px,100%);
 
-    bottom:
-        11%;
+            margin:
+                auto;
 
-}
+        }
 
 
-/* =========================================================
-   TRUST STRIP
-========================================================= */
+        .floating-card {
 
-.trust {
+            position:
+                absolute;
 
-    background:
-        var(--navy-dark);
+            z-index:
+                4;
 
-    color:
-        #fff;
+            padding:
+                14px 17px;
 
-    padding:
-        23px 0;
+            border-radius:
+                15px;
 
-}
+            background:
+                #ffffff;
 
-.trust-grid {
+            box-shadow:
+                0 18px 42px
+                rgba(9,43,80,.12);
 
-    display:
-        grid;
+        }
 
-    grid-template-columns:
-        repeat(4,1fr);
 
-}
+        .floating-card strong {
 
-.trust-item {
+            display:
+                block;
 
-    text-align:
-        center;
+            color:
+                var(--navy);
 
-    border-right:
-        1px solid
-        rgba(255,255,255,.12);
+            font-size:
+                19px;
 
-}
+        }
 
-.trust-item:last-child {
 
-    border:
-        none;
+        .floating-card small {
 
-}
+            color:
+                var(--muted);
 
-.trust-item strong {
+            font-size:
+                9px;
 
-    display:
-        block;
+            font-weight:
+                900;
 
-    font-size:
-        19px;
+            letter-spacing:
+                .7px;
 
-}
+        }
 
-.trust-item span {
 
-    font-size:
-        9px;
+        .float-one {
 
-    letter-spacing:
-        1.3px;
+            left:
+                -20px;
 
-    text-transform:
-        uppercase;
+            top:
+                15%;
 
-    opacity:
-        .62;
+        }
 
-}
 
+        .float-two {
 
-/* =========================================================
-   GENERAL SECTIONS
-========================================================= */
+            right:
+                -12px;
 
-section {
+            bottom:
+                11%;
 
-    padding:
-        100px 0;
+        }
 
-}
 
-.section-head {
+        /* =====================================================
+           TRUST
+        ===================================================== */
 
-    max-width:
-        720px;
+        .trust {
 
-    margin-bottom:
-        50px;
+            padding:
+                23px 0;
 
-}
+            background:
+                var(--navy-dark);
 
-.section-tag {
+            color:
+                #ffffff;
 
-    margin-bottom:
-        10px;
+        }
 
-    color:
-        var(--orange);
 
-    font-size:
-        10px;
+        .trust-grid {
 
-    font-weight:
-        900;
+            display:
+                grid;
 
-    letter-spacing:
-        2px;
+            grid-template-columns:
+                repeat(4,1fr);
 
-    text-transform:
-        uppercase;
+        }
 
-}
 
-.section-head h2 {
+        .trust-item {
 
-    color:
-        var(--navy-dark);
+            text-align:
+                center;
 
-    font-size:
-        clamp(38px,5vw,58px);
+            border-right:
+                1px solid
+                rgba(255,255,255,.12);
 
-    line-height:
-        1.05;
+        }
 
-    letter-spacing:
-        -2px;
 
-    margin-bottom:
-        16px;
+        .trust-item:last-child {
 
-}
+            border-right:
+                none;
 
-.section-head p {
+        }
 
-    color:
-        var(--muted);
 
-    font-size:
-        14px;
+        .trust-item strong {
 
-}
+            display:
+                block;
 
+            font-size:
+                19px;
 
-/* =========================================================
-   SERVICES
-========================================================= */
+        }
 
-.services {
 
-    background:
-        #fff;
+        .trust-item span {
 
-}
+            font-size:
+                9px;
 
-.service-grid {
+            letter-spacing:
+                1.3px;
 
-    display:
-        grid;
+            text-transform:
+                uppercase;
 
-    grid-template-columns:
-        repeat(4,1fr);
+            opacity:
+                .62;
 
-    gap:
-        18px;
+        }
 
-}
 
-.service-card {
+        /* =====================================================
+           SECTIONS
+        ===================================================== */
 
-    min-height:
-        270px;
+        section {
 
-    padding:
-        27px;
+            padding:
+                100px 0;
 
-    position:
-        relative;
+        }
 
-    overflow:
-        hidden;
 
-    border:
-        1px solid
-        var(--border);
+        .section-head {
 
-    border-radius:
-        22px;
+            max-width:
+                720px;
 
-    background:
-        linear-gradient(
-            145deg,
-            #fff,
-            #f4f9fd
-        );
+            margin-bottom:
+                48px;
 
-    transition:
-        .35s ease;
+        }
 
-}
 
-.service-card:hover {
+        .section-tag {
 
-    transform:
-        translateY(-7px);
+            margin-bottom:
+                9px;
 
-    box-shadow:
-        var(--shadow-heavy);
+            color:
+                var(--orange);
 
-}
+            font-size:
+                10px;
 
-.service-number {
+            font-weight:
+                900;
 
-    color:
-        var(--orange);
+            letter-spacing:
+                2px;
 
-    font-size:
-        9px;
+            text-transform:
+                uppercase;
 
-    font-weight:
-        900;
+        }
 
-    letter-spacing:
-        1.8px;
 
-    margin-bottom:
-        25px;
+        .section-head h2 {
 
-}
+            margin:
+                0 0 15px;
 
-.service-icon {
+            color:
+                var(--navy-dark);
 
-    width:
-        50px;
+            font-size:
+                clamp(38px,5vw,58px);
 
-    height:
-        50px;
+            line-height:
+                1.04;
 
-    display:
-        grid;
+            letter-spacing:
+                -2px;
 
-    place-items:
-        center;
+        }
 
-    margin-bottom:
-        21px;
 
-    border-radius:
-        14px;
+        .section-head p {
 
-    color:
-        #fff;
+            color:
+                var(--muted);
 
-    font-size:
-        17px;
+            font-size:
+                14px;
 
-    font-weight:
-        900;
+            line-height:
+                1.75;
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--navy),
-            var(--blue)
-        );
+        }
 
-}
 
-.service-card:nth-child(even)
-.service-icon {
+        /* =====================================================
+           SERVICES
+        ===================================================== */
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--orange),
-            var(--orange-dark)
-        );
+        .services {
 
-}
+            background:
+                #ffffff;
 
-.service-card h3 {
+        }
 
-    color:
-        var(--navy);
 
-    font-size:
-        18px;
+        .service-grid {
 
-    margin-bottom:
-        8px;
+            display:
+                grid;
 
-}
+            grid-template-columns:
+                repeat(4,1fr);
 
-.service-card p {
+            gap:
+                17px;
 
-    color:
-        var(--muted);
+        }
 
-    font-size:
-        12px;
 
-    line-height:
-        1.7;
+        .service-card {
 
-}
+            min-height:
+                260px;
 
+            padding:
+                25px;
 
-/* =========================================================
-   ABOUT
-========================================================= */
+            border:
+                1px solid
+                var(--border);
 
-.about {
+            border-radius:
+                21px;
 
-    background:
-        var(--bg);
+            background:
+                linear-gradient(
+                    145deg,
+                    #ffffff,
+                    #f4f9fd
+                );
 
-}
+            transition:
+                .35s ease;
 
-.about-grid {
+        }
 
-    display:
-        grid;
 
-    grid-template-columns:
-        .9fr 1.1fr;
+        .service-card:hover {
 
-    gap:
-        70px;
+            transform:
+                translateY(-7px);
 
-    align-items:
-        center;
+            box-shadow:
+                var(--shadow-heavy);
 
-}
+        }
 
-.about-visual {
 
-    min-height:
-        500px;
+        .service-number {
 
-    position:
-        relative;
+            margin-bottom:
+                22px;
 
-    display:
-        flex;
+            color:
+                var(--orange);
 
-    align-items:
-        flex-end;
+            font-size:
+                9px;
 
-    overflow:
-        hidden;
+            font-weight:
+                900;
 
-    padding:
-        42px;
+            letter-spacing:
+                1.8px;
 
-    border-radius:
-        34px;
+        }
 
-    background:
-        linear-gradient(
-            145deg,
-            var(--navy-dark),
-            var(--blue)
-        );
 
-}
+        .service-icon {
 
-.about-visual::before {
+            width:
+                50px;
 
-    content:
-        "";
+            height:
+                50px;
 
-    position:
-        absolute;
+            display:
+                grid;
 
-    width:
-        280px;
+            place-items:
+                center;
 
-    height:
-        280px;
+            margin-bottom:
+                20px;
 
-    right:
-        -85px;
+            border-radius:
+                14px;
 
-    top:
-        -100px;
+            color:
+                #ffffff;
 
-    border-radius:
-        50%;
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--navy),
+                    var(--blue)
+                );
 
-    background:
-        var(--orange);
+            font-size:
+                16px;
 
-    opacity:
-        .78;
+            font-weight:
+                900;
 
-}
+        }
 
-.about-visual::after {
 
-    content:
-        "360°";
+        .service-card:nth-child(even)
+        .service-icon {
 
-    position:
-        absolute;
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--orange),
+                    var(--orange-dark)
+                );
 
-    right:
-        -8px;
+        }
 
-    bottom:
-        0;
 
-    color:
-        rgba(255,255,255,.07);
+        .service-card h3 {
 
-    font-size:
-        150px;
+            margin-bottom:
+                7px;
 
-    font-weight:
-        900;
+            color:
+                var(--navy);
 
-}
+            font-size:
+                18px;
 
-.about-box {
+        }
 
-    position:
-        relative;
 
-    z-index:
-        2;
+        .service-card p {
 
-    color:
-        #fff;
+            color:
+                var(--muted);
 
-}
+            font-size:
+                12px;
 
-.about-box span {
+            line-height:
+                1.7;
 
-    color:
-        #ffd29e;
+        }
 
-    font-size:
-        10px;
 
-    font-weight:
-        900;
+        /* =====================================================
+           ABOUT
+        ===================================================== */
 
-    letter-spacing:
-        2px;
+        .about {
 
-}
+            background:
+                var(--bg);
 
-.about-box h3 {
+        }
 
-    font-size:
-        43px;
 
-    line-height:
-        1;
+        .about-grid {
 
-    margin:
-        14px 0;
+            display:
+                grid;
 
-}
+            grid-template-columns:
+                .92fr 1.08fr;
 
-.about-box p {
+            gap:
+                65px;
 
-    max-width:
-        340px;
+            align-items:
+                center;
 
-    color:
-        rgba(255,255,255,.74);
+        }
 
-    font-size:
-        13px;
 
-}
+        .about-visual {
 
-.about-content h2 {
+            min-height:
+                500px;
 
-    color:
-        var(--navy-dark);
+            position:
+                relative;
 
-    font-size:
-        clamp(38px,5vw,58px);
+            display:
+                flex;
 
-    line-height:
-        1.04;
+            align-items:
+                flex-end;
 
-    letter-spacing:
-        -2px;
+            padding:
+                40px;
 
-    margin-bottom:
-        20px;
+            overflow:
+                hidden;
 
-}
+            border-radius:
+                32px;
 
-.about-content > p {
+            background:
+                linear-gradient(
+                    145deg,
+                    var(--navy-dark),
+                    var(--blue)
+                );
 
-    color:
-        var(--muted);
+        }
 
-    font-size:
-        14px;
 
-    margin-bottom:
-        28px;
+        .about-visual::before {
 
-}
+            content:
+                "";
 
-.check-list {
+            position:
+                absolute;
 
-    display:
-        grid;
+            width:
+                290px;
 
-    gap:
-        16px;
+            height:
+                290px;
 
-}
+            right:
+                -75px;
 
-.check {
+            top:
+                -110px;
 
-    display:
-        flex;
+            border-radius:
+                50%;
 
-    gap:
-        13px;
+            background:
+                var(--orange);
 
-}
+            opacity:
+                .8;
 
-.check-icon {
+        }
 
-    width:
-        28px;
 
-    height:
-        28px;
+        .about-visual::after {
 
-    flex:
-        0 0 28px;
+            content:
+                "360°";
 
-    display:
-        grid;
+            position:
+                absolute;
 
-    place-items:
-        center;
+            right:
+                -8px;
 
-    border-radius:
-        50%;
+            bottom:
+                -7px;
 
-    color:
-        #fff;
+            color:
+                rgba(255,255,255,.07);
 
-    background:
-        var(--orange);
+            font-size:
+                150px;
 
-    font-size:
-        12px;
+            font-weight:
+                900;
 
-    font-weight:
-        900;
+        }
 
-}
 
-.check strong {
+        .about-box {
 
-    display:
-        block;
+            position:
+                relative;
 
-    color:
-        var(--navy);
+            z-index:
+                2;
 
-    font-size:
-        13px;
+            color:
+                #ffffff;
 
-    margin-bottom:
-        2px;
+        }
 
-}
 
-.check span {
+        .about-box span {
 
-    color:
-        var(--muted);
+            color:
+                #ffd29e;
 
-    font-size:
-        11px;
+            font-size:
+                10px;
 
-}
+            font-weight:
+                900;
 
+            letter-spacing:
+                2px;
 
-/* =========================================================
-   PROCESS
-========================================================= */
+        }
 
-.process {
 
-    background:
-        #fff;
+        .about-box h3 {
 
-}
+            margin:
+                13px 0;
 
-.process-grid {
+            font-size:
+                44px;
 
-    display:
-        grid;
+            line-height:
+                1;
 
-    grid-template-columns:
-        repeat(4,1fr);
+        }
 
-    gap:
-        18px;
 
-}
+        .about-box p {
 
-.process-card {
+            max-width:
+                340px;
 
-    overflow:
-        hidden;
+            color:
+                rgba(255,255,255,.73);
 
-    border:
-        1px solid
-        var(--border);
+            font-size:
+                13px;
 
-    border-radius:
-        20px;
+        }
 
-    background:
-        #fff;
 
-    box-shadow:
-        0 10px 30px
-        rgba(9,43,80,.05);
+        .about-content h2 {
 
-    transition:
-        .35s ease;
+            margin-bottom:
+                18px;
 
-}
+            color:
+                var(--navy-dark);
 
-.process-card:hover {
+            font-size:
+                clamp(38px,5vw,58px);
 
-    transform:
-        translateY(-7px);
+            line-height:
+                1.04;
 
-    box-shadow:
-        var(--shadow-heavy);
+            letter-spacing:
+                -2px;
 
-}
+        }
 
-.process-image {
 
-    width:
-        100%;
+        .about-content > p {
 
-    height:
-        175px;
+            margin-bottom:
+                26px;
 
-    object-fit:
-        cover;
+            color:
+                var(--muted);
 
-}
+            font-size:
+                14px;
 
-.process-content {
+            line-height:
+                1.75;
 
-    padding:
-        22px;
+        }
 
-}
 
-.process-number {
+        .check-list {
 
-    color:
-        var(--orange);
+            display:
+                grid;
 
-    font-size:
-        9px;
+            gap:
+                15px;
 
-    letter-spacing:
-        1.7px;
+        }
 
-    font-weight:
-        900;
 
-}
+        .check {
 
-.process-content h3 {
+            display:
+                flex;
 
-    color:
-        var(--navy);
+            gap:
+                12px;
 
-    font-size:
-        19px;
+            align-items:
+                flex-start;
 
-    margin:
-        8px 0;
+        }
 
-}
 
-.process-content p {
+        .check-icon {
 
-    color:
-        var(--muted);
+            width:
+                27px;
 
-    font-size:
-        12px;
+            height:
+                27px;
 
-    line-height:
-        1.7;
+            flex:
+                0 0 27px;
 
-}
+            display:
+                grid;
 
+            place-items:
+                center;
 
-/* =========================================================
-   ADVERTISING CTA
-========================================================= */
+            border-radius:
+                50%;
 
-.ad-cta {
+            color:
+                #ffffff;
 
-    padding:
-        75px 0;
+            background:
+                var(--orange);
 
-    background:
-        var(--bg);
+            font-size:
+                11px;
 
-}
+            font-weight:
+                900;
 
-.ad-box {
+        }
 
-    min-height:
-        440px;
 
-    position:
-        relative;
+        .check strong {
 
-    overflow:
-        hidden;
+            display:
+                block;
 
-    display:
-        flex;
+            color:
+                var(--navy);
 
-    align-items:
-        center;
+            font-size:
+                13px;
 
-    border-radius:
-        34px;
+        }
 
-    background:
-        url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=85")
-        center / cover no-repeat;
 
-}
+        .check span {
 
-.ad-box::before {
+            color:
+                var(--muted);
 
-    content:
-        "";
+            font-size:
+                11px;
 
-    position:
-        absolute;
+        }
 
-    inset:
-        0;
 
-    background:
-        linear-gradient(
-            90deg,
-            rgba(6,29,55,.95),
-            rgba(6,29,55,.77),
-            rgba(6,29,55,.30)
-        );
+        /* =====================================================
+           PROCESS
+        ===================================================== */
 
-}
+        .process {
 
-.ad-content {
+            background:
+                #ffffff;
 
-    position:
-        relative;
+        }
 
-    z-index:
-        2;
 
-    width:
-        min(660px,90%);
+        .process-grid {
 
-    padding:
-        60px;
+            display:
+                grid;
 
-    color:
-        #fff;
+            grid-template-columns:
+                repeat(4,1fr);
 
-}
+            gap:
+                17px;
 
-.ad-content small {
+        }
 
-    color:
-        #9adfff;
 
-    font-size:
-        10px;
+        .process-card {
 
-    font-weight:
-        900;
+            overflow:
+                hidden;
 
-    letter-spacing:
-        2px;
+            border:
+                1px solid
+                var(--border);
 
-    text-transform:
-        uppercase;
+            border-radius:
+                19px;
 
-}
+            background:
+                #ffffff;
 
-.ad-content h2 {
+            box-shadow:
+                0 10px 30px
+                rgba(9,43,80,.05);
 
-    font-size:
-        clamp(40px,5vw,63px);
+            transition:
+                .35s ease;
 
-    line-height:
-        .98;
+        }
 
-    letter-spacing:
-        -2px;
 
-    margin:
-        14px 0 18px;
+        .process-card:hover {
 
-}
+            transform:
+                translateY(-7px);
 
-.ad-content p {
+            box-shadow:
+                var(--shadow-heavy);
 
-    max-width:
-        580px;
+        }
 
-    color:
-        rgba(255,255,255,.75);
 
-    font-size:
-        14px;
+        .process-image {
 
-    margin-bottom:
-        26px;
+            width:
+                100%;
 
-}
+            height:
+                170px;
 
-.ad-actions {
+            object-fit:
+                cover;
 
-    display:
-        flex;
+        }
 
-    flex-wrap:
-        wrap;
 
-    gap:
-        10px;
+        .process-content {
 
-}
+            padding:
+                20px;
 
-.ad-btn-white {
+        }
 
-    color:
-        var(--navy);
 
-    background:
-        #fff;
+        .process-number {
 
-}
+            color:
+                var(--orange);
 
-.ad-btn-orange {
+            font-size:
+                9px;
 
-    color:
-        #fff;
+            font-weight:
+                900;
 
-    background:
-        var(--orange);
+            letter-spacing:
+                1.7px;
 
-}
+        }
 
 
-/* =========================================================
-   CONTACT
-========================================================= */
+        .process-content h3 {
 
-.contact {
+            margin:
+                8px 0;
 
-    background:
-        #fff;
+            color:
+                var(--navy);
 
-}
+            font-size:
+                19px;
 
-.contact-grid {
+        }
 
-    display:
-        grid;
 
-    grid-template-columns:
-        1fr 1fr;
+        .process-content p {
 
-    align-items:
-        center;
+            color:
+                var(--muted);
 
-    gap:
-        60px;
+            font-size:
+                12px;
 
-}
+            line-height:
+                1.7;
 
-.contact-left h2 {
+        }
 
-    color:
-        var(--navy-dark);
 
-    font-size:
-        clamp(40px,5vw,60px);
+        /* =====================================================
+           ADVERTISEMENT CTA
+        ===================================================== */
 
-    line-height:
-        1.03;
+        .ad-cta {
 
-    letter-spacing:
-        -2px;
+            padding:
+                75px 0;
 
-    margin-bottom:
-        17px;
+            background:
+                var(--bg);
 
-}
+        }
 
-.contact-left > p {
 
-    max-width:
-        560px;
+        .ad-box {
 
-    color:
-        var(--muted);
+            min-height:
+                450px;
 
-    font-size:
-        14px;
+            position:
+                relative;
 
-    margin-bottom:
-        25px;
+            display:
+                flex;
 
-}
+            align-items:
+                center;
 
-.contact-card {
+            overflow:
+                hidden;
 
-    padding:
-        28px;
+            border-radius:
+                32px;
 
-    border:
-        1px solid
-        var(--border);
+            background:
+                url(
+                    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=85"
+                )
+                center / cover no-repeat;
 
-    border-radius:
-        25px;
+        }
 
-    background:
-        #fff;
 
-    box-shadow:
-        var(--shadow);
+        .ad-box::before {
 
-}
+            content:
+                "";
 
-.contact-row {
+            position:
+                absolute;
 
-    display:
-        grid;
+            inset:
+                0;
 
-    grid-template-columns:
-        48px 1fr;
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(6,29,55,.95),
+                    rgba(6,29,55,.78),
+                    rgba(6,29,55,.27)
+                );
 
-    gap:
-        13px;
+        }
 
-    align-items:
-        center;
 
-    padding:
-        14px 0;
+        .ad-content {
 
-    border-bottom:
-        1px solid
-        rgba(9,43,80,.07);
+            position:
+                relative;
 
-}
+            z-index:
+                2;
 
-.contact-row:last-child {
+            width:
+                min(680px,90%);
 
-    border:
-        none;
+            padding:
+                60px;
 
-}
+        }
 
-.contact-icon {
 
-    width:
-        46px;
+        .ad-content small {
 
-    height:
-        46px;
+            color:
+                #9bddff;
 
-    display:
-        grid;
+            font-size:
+                10px;
 
-    place-items:
-        center;
+            font-weight:
+                900;
 
-    border-radius:
-        13px;
+            letter-spacing:
+                2px;
 
-    color:
-        var(--blue);
+            text-transform:
+                uppercase;
 
-    background:
-        var(--bg-soft);
+        }
 
-}
 
-.contact-icon svg {
+        .ad-content h2 {
 
-    width:
-        19px;
+            margin:
+                13px 0 17px;
 
-    height:
-        19px;
+            color:
+                #ffffff;
 
-    fill:
-        currentColor;
+            font-size:
+                clamp(40px,5vw,63px);
 
-}
+            line-height:
+                .98;
 
-.contact-row h4 {
+            letter-spacing:
+                -2px;
 
-    color:
-        var(--navy);
+        }
 
-    font-size:
-        12px;
 
-    margin-bottom:
-        2px;
+        .ad-content p {
 
-}
+            max-width:
+                570px;
 
-.contact-row a {
+            margin-bottom:
+                25px;
 
-    color:
-        var(--muted);
+            color:
+                rgba(255,255,255,.74);
 
-    font-size:
-        12px;
+            font-size:
+                14px;
 
-    word-break:
-        break-word;
+            line-height:
+                1.75;
 
-}
+        }
 
-.contact-row a:hover {
 
-    color:
-        var(--blue);
+        .ad-actions {
 
-}
+            display:
+                flex;
 
-.contact-socials {
+            flex-wrap:
+                wrap;
 
-    display:
-        flex;
+            gap:
+                9px;
 
-    flex-wrap:
-        wrap;
+        }
 
-    gap:
-        8px;
 
-    margin-top:
-        18px;
+        .ad-call {
 
-}
+            color:
+                var(--navy);
 
-.contact-social {
+            background:
+                #ffffff;
 
-    min-height:
-        40px;
+        }
 
-    display:
-        inline-flex;
 
-    align-items:
-        center;
+        .ad-whatsapp {
 
-    justify-content:
-        center;
+            color:
+                #ffffff;
 
-    gap:
-        7px;
+            background:
+                var(--whatsapp-green);
 
-    padding:
-        0 13px;
+        }
 
-    border-radius:
-        11px;
 
-    border:
-        1px solid
-        var(--border);
+        /* =====================================================
+           CONTACT
+        ===================================================== */
 
-    background:
-        #fff;
+        .contact {
 
-    color:
-        var(--navy);
+            background:
+                #ffffff;
 
-    font-size:
-        11px;
+        }
 
-    font-weight:
-        900;
 
-    transition:
-        .3s ease;
+        .contact-grid {
 
-}
+            display:
+                grid;
 
-.contact-social:hover {
+            grid-template-columns:
+                1fr 1fr;
 
-    transform:
-        translateY(-3px);
+            align-items:
+                center;
 
-}
+            gap:
+                55px;
 
-.contact-social svg {
+        }
 
-    width:
-        17px;
 
-    height:
-        17px;
+        .contact-left h2 {
 
-    fill:
-        currentColor;
+            margin-bottom:
+                16px;
 
-}
+            color:
+                var(--navy-dark);
 
-.contact-instagram:hover {
+            font-size:
+                clamp(40px,5vw,60px);
 
-    color:
-        #E1306C;
+            line-height:
+                1.03;
 
-}
+            letter-spacing:
+                -2px;
 
-.contact-linkedin:hover {
+        }
 
-    color:
-        #0A66C2;
 
-}
+        .contact-left > p {
 
-.contact-whatsapp:hover {
+            max-width:
+                540px;
 
-    color:
-        #25D366;
+            margin-bottom:
+                23px;
 
-}
+            color:
+                var(--muted);
 
+            font-size:
+                13px;
 
-/* =========================================================
-   FOOTER
-========================================================= */
+            line-height:
+                1.75;
 
-footer {
+        }
 
-    padding:
-        65px 0 25px;
 
-    background:
-        var(--navy-dark);
+        .contact-card {
 
-    color:
-        #fff;
+            padding:
+                26px;
 
-}
+            border:
+                1px solid
+                var(--border);
 
-.footer-grid {
+            border-radius:
+                24px;
 
-    display:
-        grid;
+            background:
+                #ffffff;
 
-    grid-template-columns:
-        1.4fr 1fr 1fr;
+            box-shadow:
+                var(--shadow);
 
-    gap:
-        55px;
+        }
 
-    padding-bottom:
-        45px;
 
-}
+        .contact-row {
 
-.footer-logo {
+            display:
+                grid;
 
-    width:
-        220px;
+            grid-template-columns:
+                46px 1fr;
 
-    padding:
-        13px;
+            align-items:
+                center;
 
-    margin-bottom:
-        17px;
+            gap:
+                12px;
 
-    border-radius:
-        14px;
+            padding:
+                13px 0;
 
-    background:
-        #fff;
+            border-bottom:
+                1px solid
+                rgba(9,43,80,.07);
 
-}
+        }
 
-.footer-about {
 
-    max-width:
-        400px;
+        .contact-row:last-child {
 
-    color:
-        rgba(255,255,255,.57);
+            border-bottom:
+                none;
 
-    font-size:
-        12px;
+        }
 
-}
 
-footer h3 {
+        .contact-icon {
 
-    margin-bottom:
-        15px;
+            width:
+                44px;
 
-    font-size:
-        14px;
+            height:
+                44px;
 
-}
+            display:
+                grid;
 
-footer ul {
+            place-items:
+                center;
 
-    display:
-        grid;
+            border-radius:
+                12px;
 
-    gap:
-        9px;
+            background:
+                var(--bg-soft);
 
-    list-style:
-        none;
+        }
 
-}
 
-footer li {
+        .contact-icon svg {
 
-    color:
-        rgba(255,255,255,.53);
+            width:
+                20px;
 
-    font-size:
-        11px;
+            height:
+                20px;
 
-}
+        }
 
-footer li a:hover {
 
-    color:
-        #fff;
+        .contact-label {
 
-}
+            margin-bottom:
+                2px;
 
-.footer-socials {
+            color:
+                var(--navy);
 
-    display:
-        flex;
+            font-size:
+                11px;
 
-    gap:
-        8px;
+            font-weight:
+                900;
 
-    margin-top:
-        20px;
+        }
 
-}
 
-.footer-social {
+        .contact-value {
 
-    width:
-        39px;
+            color:
+                var(--muted);
 
-    height:
-        39px;
+            font-size:
+                12px;
 
-    display:
-        grid;
+            word-break:
+                break-word;
 
-    place-items:
-        center;
+        }
 
-    border-radius:
-        50%;
 
-    color:
-        #fff;
+        .contact-value:hover {
 
-    background:
-        rgba(255,255,255,.08);
+            color:
+                var(--blue);
 
-    transition:
-        .3s ease;
+        }
 
-}
 
-.footer-social svg {
+        .contact-socials {
 
-    width:
-        17px;
+            display:
+                flex;
 
-    height:
-        17px;
+            flex-wrap:
+                wrap;
 
-    fill:
-        currentColor;
+            gap:
+                8px;
 
-}
+            margin-top:
+                17px;
 
-.footer-social:hover {
+        }
 
-    transform:
-        translateY(-3px);
 
-    background:
-        #fff;
+        /* =====================================================
+           FOOTER
+        ===================================================== */
 
-}
+        footer {
 
-.footer-instagram:hover {
+            padding:
+                60px 0 25px;
 
-    color:
-        #E1306C;
+            background:
+                var(--navy-dark);
 
-}
+            color:
+                #ffffff;
 
-.footer-linkedin:hover {
+        }
 
-    color:
-        #0A66C2;
 
-}
+        .footer-grid {
 
-.footer-whatsapp:hover {
+            display:
+                grid;
 
-    color:
-        #25D366;
+            grid-template-columns:
+                1.4fr 1fr 1fr;
 
-}
+            gap:
+                50px;
 
-.copyright {
+            padding-bottom:
+                42px;
 
-    padding-top:
-        20px;
+        }
 
-    border-top:
-        1px solid
-        rgba(255,255,255,.09);
 
-    display:
-        flex;
+        .footer-logo {
 
-    justify-content:
-        space-between;
+            width:
+                205px;
 
-    gap:
-        15px;
+            padding:
+                12px;
 
-    color:
-        rgba(255,255,255,.36);
+            margin-bottom:
+                16px;
 
-    font-size:
-        9px;
+            border-radius:
+                13px;
 
-}
+            background:
+                #ffffff;
 
+        }
 
-/* =========================================================
-   FLOATING WHATSAPP DESKTOP
-========================================================= */
 
-.whatsapp-float {
+        .footer-about {
 
-    width:
-        58px;
+            max-width:
+                390px;
 
-    height:
-        58px;
+            color:
+                rgba(255,255,255,.57);
 
-    position:
-        fixed;
+            font-size:
+                12px;
 
-    right:
-        22px;
+            line-height:
+                1.7;
 
-    bottom:
-        22px;
+        }
 
-    z-index:
-        1900;
 
-    display:
-        grid;
+        footer h3 {
 
-    place-items:
-        center;
+            margin-bottom:
+                15px;
 
-    border-radius:
-        50%;
+            font-size:
+                14px;
 
-    background:
-        #25D366;
+        }
 
-    color:
-        #fff;
 
-    box-shadow:
-        0 15px 35px
-        rgba(37,211,102,.30);
+        footer ul {
 
-    transition:
-        .3s ease;
+            list-style:
+                none;
 
-}
+            display:
+                grid;
 
-.whatsapp-float:hover {
+            gap:
+                9px;
 
-    transform:
-        scale(1.08);
+        }
 
-}
 
-.whatsapp-float svg {
+        footer li {
 
-    width:
-        28px;
+            color:
+                rgba(255,255,255,.55);
 
-    height:
-        28px;
+            font-size:
+                11px;
 
-    fill:
-        currentColor;
+        }
 
-}
 
+        footer li a:hover {
 
-/* =========================================================
-   MOBILE BOTTOM BAR
-========================================================= */
+            color:
+                #ffffff;
 
-.mobile-bottom-bar {
+        }
 
-    display:
-        none;
 
-}
+        .footer-socials {
 
+            display:
+                flex;
 
-/* =========================================================
-   TABLET
-========================================================= */
+            gap:
+                8px;
 
-@media (max-width: 1050px) {
+            margin-top:
+                18px;
 
-    .desktop-nav > a {
+        }
 
-        display:
-            none;
 
-    }
+        .footer-social {
 
-    .desktop-nav {
+            width:
+                40px;
 
-        gap:
-            8px;
+            height:
+                40px;
 
-    }
+            display:
+                grid;
 
-    .social-icon {
+            place-items:
+                center;
 
-        display:
-            none;
+            border-radius:
+                50%;
 
-    }
+            background:
+                rgba(255,255,255,.08);
 
-    .hero-grid {
+            transition:
+                .3s ease;
 
-        grid-template-columns:
-            1fr;
+        }
 
-        gap:
-            45px;
 
-    }
+        .footer-social:hover {
 
-    .hero-copy {
+            transform:
+                translateY(-3px);
 
-        max-width:
-            850px;
+            background:
+                #ffffff;
 
-    }
+        }
 
-    .hero-visual {
 
-        max-width:
-            620px;
+        .footer-social svg {
 
-        width:
-            100%;
+            width:
+                18px;
 
-        margin:
-            auto;
+            height:
+                18px;
 
-    }
+        }
 
-    .service-grid {
 
-        grid-template-columns:
-            repeat(2,1fr);
+        .copyright {
 
-    }
+            padding-top:
+                20px;
 
-    .about-grid {
+            border-top:
+                1px solid
+                rgba(255,255,255,.09);
 
-        grid-template-columns:
-            1fr;
+            display:
+                flex;
 
-    }
+            justify-content:
+                space-between;
 
-    .about-visual {
+            gap:
+                15px;
 
-        max-width:
-            650px;
+            color:
+                rgba(255,255,255,.38);
 
-    }
+            font-size:
+                9px;
 
-    .process-grid {
+        }
 
-        grid-template-columns:
-            repeat(2,1fr);
 
-    }
+        /* =====================================================
+           DESKTOP WHATSAPP
+        ===================================================== */
 
-    .contact-grid {
+        .whatsapp-float {
 
-        grid-template-columns:
-            1fr;
+            position:
+                fixed;
 
-    }
+            right:
+                22px;
 
-    .footer-grid {
+            bottom:
+                22px;
 
-        grid-template-columns:
-            1fr 1fr;
+            width:
+                58px;
 
-    }
+            height:
+                58px;
 
-}
+            z-index:
+                4000;
 
+            display:
+                grid;
 
-/* =========================================================
-   MOBILE
-========================================================= */
+            place-items:
+                center;
 
-@media (max-width: 700px) {
+            border-radius:
+                50%;
 
-    html {
+            background:
+                var(--whatsapp-green);
 
-        scroll-padding-top:
-            72px;
+            box-shadow:
+                0 15px 35px
+                rgba(37,211,102,.30);
 
-    }
+            transition:
+                .3s ease;
 
-    body {
+        }
 
-        padding-bottom:
-            68px;
 
-    }
+        .whatsapp-float:hover {
 
+            transform:
+                scale(1.08);
 
-    /* HEADER */
+        }
 
-    .site-header {
 
-        background:
-            rgba(255,255,255,.97);
+        .whatsapp-float svg {
 
-    }
+            width:
+                28px;
 
-    .navbar {
+            height:
+                28px;
 
-        min-height:
-            70px;
+            fill:
+                #ffffff;
 
-    }
+        }
 
-    .brand img {
 
-        width:
-            158px;
+        /* =====================================================
+           MOBILE BOTTOM BAR
+        ===================================================== */
 
-    }
+        .mobile-bottom-bar {
 
-    .desktop-nav {
+            display:
+                none;
 
-        display:
-            none;
+        }
 
-    }
 
-    .mobile-header-actions {
+        /* =====================================================
+           TABLET
+        ===================================================== */
 
-        display:
-            flex;
+        @media (max-width: 1050px) {
 
-    }
+            .desktop-nav
+            > a:not(.nav-social):not(.header-call) {
 
-    .header-call {
+                display:
+                    none;
 
-        min-height:
-            40px;
+            }
 
-        padding:
-            0 13px;
 
-        font-size:
-            10px;
+            .hero-grid {
 
-    }
+                grid-template-columns:
+                    1fr;
 
-    .header-call svg {
+                gap:
+                    40px;
 
-        width:
-            14px;
+            }
 
-        height:
-            14px;
 
-    }
+            .hero-copy {
 
-    .mobile-menu {
+                max-width:
+                    820px;
 
-        top:
-            70px;
+            }
 
-    }
 
+            .hero-visual {
 
-    /* HERO */
+                width:
+                    100%;
 
-    .hero {
+                max-width:
+                    620px;
 
-        min-height:
-            auto;
+                margin:
+                    auto;
 
-        padding:
-            105px 0 55px;
+            }
 
-    }
 
-    .hero::before {
+            .service-grid {
 
-        width:
-            320px;
+                grid-template-columns:
+                    repeat(2,1fr);
 
-        height:
-            320px;
+            }
 
-        right:
-            -170px;
 
-        top:
-            60px;
+            .about-grid {
 
-    }
+                grid-template-columns:
+                    1fr;
 
-    .hero-grid {
+            }
 
-        min-height:
-            auto;
 
-        display:
-            flex;
+            .about-visual {
 
-        flex-direction:
-            column;
+                max-width:
+                    650px;
 
-        align-items:
-            stretch;
+            }
 
-        gap:
-            30px;
 
-    }
+            .process-grid {
 
-    .hero-copy {
+                grid-template-columns:
+                    repeat(2,1fr);
 
-        order:
-            1;
+            }
 
-        width:
-            100%;
 
-    }
+            .contact-grid {
 
-    .hero-visual {
+                grid-template-columns:
+                    1fr;
 
-        order:
-            2;
+            }
 
-        width:
-            100%;
 
-        max-width:
-            100%;
+            .footer-grid {
 
-    }
+                grid-template-columns:
+                    1fr 1fr;
 
-    .eyebrow {
+            }
 
-        margin-bottom:
-            17px;
+        }
 
-        font-size:
-            8px;
 
-        letter-spacing:
-            1.2px;
+        /* =====================================================
+           MOBILE — PRIMARY DESIGN
+        ===================================================== */
 
-        padding:
-            7px 11px;
+        @media (max-width: 700px) {
 
-    }
 
-    .hero h1 {
+            body {
 
-        font-size:
-            clamp(44px,13vw,60px);
+                padding-bottom:
+                    68px;
 
-        line-height:
-            .95;
+            }
 
-        letter-spacing:
-            -2px;
 
-        margin-bottom:
-            19px;
+            html {
 
-    }
+                scroll-padding-top:
+                    60px;
 
-    .hero-description {
+            }
 
-        font-size:
-            14px;
 
-        line-height:
-            1.7;
+            /* -----------------------------------------------
+               HEADER
+            ----------------------------------------------- */
 
-        margin-bottom:
-            22px;
+            .site-header {
 
-    }
+                min-height:
+                    58px;
 
-    .hero-buttons {
+            }
 
-        display:
-            grid;
 
-        grid-template-columns:
-            1fr;
+            .navbar {
 
-        gap:
-            9px;
+                min-height:
+                    58px;
 
-    }
+                height:
+                    58px;
 
-    .hero-buttons .btn {
+            }
 
-        width:
-            100%;
 
-        min-height:
-            49px;
+            .brand img {
 
-    }
+                width:
+                    128px;
 
-    .hero-social {
+            }
 
-        display:
-            grid;
 
-        grid-template-columns:
-            1fr 1fr;
+            .desktop-nav {
 
-        gap:
-            8px;
+                display:
+                    none;
 
-        margin-top:
-            12px;
+            }
 
-    }
 
-    .social-button {
+            .mobile-actions {
 
-        width:
-            100%;
+                display:
+                    flex;
 
-        min-height:
-            42px;
+            }
 
-        padding:
-            0 8px;
 
-        font-size:
-            10px;
+            .header-call {
 
-    }
+                min-height:
+                    33px;
 
+                height:
+                    33px;
 
-    /* LOGO CARD */
+                padding:
+                    0 11px;
 
-    .logo-card {
+                border-radius:
+                    9px;
 
-        width:
-            100%;
+                font-size:
+                    9px;
 
-        padding:
-            20px;
+            }
 
-        border-radius:
-            22px;
 
-        box-shadow:
-            0 20px 45px
-            rgba(9,43,80,.10);
+            .header-call svg {
 
-    }
+                width:
+                    12px;
 
-    .logo-card img {
+                height:
+                    12px;
 
-        width:
-            min(330px,100%);
+            }
 
-        margin:
-            auto;
 
-    }
+            .mobile-menu-button {
 
-    .floating-card {
+                width:
+                    35px;
 
-        display:
-            none;
+                height:
+                    35px;
 
-    }
+                border-radius:
+                    9px;
 
+            }
 
-    /* TRUST */
 
-    .trust {
+            .mobile-menu {
 
-        padding:
-            20px 0;
+                top:
+                    63px;
 
-    }
+            }
 
-    .trust-grid {
 
-        grid-template-columns:
-            1fr 1fr;
+            /* -----------------------------------------------
+               HERO
+            ----------------------------------------------- */
 
-        gap:
-            18px 5px;
+            .hero {
 
-    }
+                min-height:
+                    auto;
 
-    .trust-item {
+                padding:
+                    80px 0 42px;
 
-        border:
-            none;
+                overflow:
+                    visible;
 
-    }
+            }
 
-    .trust-item strong {
 
-        font-size:
-            17px;
+            .hero::before {
 
-    }
+                width:
+                    270px;
 
-    .trust-item span {
+                height:
+                    270px;
 
-        font-size:
-            8px;
+                top:
+                    35px;
 
-        letter-spacing:
-            1px;
+                right:
+                    -155px;
 
-    }
+            }
 
 
-    /* SECTIONS */
+            .hero-grid {
 
-    section {
+                min-height:
+                    auto;
 
-        padding:
-            65px 0;
+                display:
+                    flex;
 
-    }
+                flex-direction:
+                    column;
 
-    .section-head {
+                align-items:
+                    stretch;
 
-        margin-bottom:
-            30px;
+                gap:
+                    27px;
 
-    }
+            }
 
-    .section-tag {
 
-        font-size:
-            9px;
+            .hero-copy {
 
-    }
+                width:
+                    100%;
 
-    .section-head h2 {
+                max-width:
+                    none;
 
-        font-size:
-            clamp(34px,10vw,46px);
+            }
 
-        letter-spacing:
-            -1.5px;
 
-    }
+            /* -----------------------------------------------
+               360 BADGE
+            ----------------------------------------------- */
 
-    .section-head p {
+            .eyebrow {
 
-        font-size:
-            13px;
+                display:
+                    inline-flex;
 
-        line-height:
-            1.7;
+                width:
+                    auto;
 
-    }
+                max-width:
+                    100%;
 
+                min-height:
+                    29px;
 
-    /* SERVICES */
+                padding:
+                    6px 9px;
 
-    .service-grid {
+                margin:
+                    0 0 15px;
 
-        grid-template-columns:
-            1fr;
+                white-space:
+                    nowrap;
 
-        gap:
-            13px;
+                overflow:
+                    hidden;
 
-    }
+                text-overflow:
+                    ellipsis;
 
-    .service-card {
+                font-size:
+                    7.5px;
 
-        min-height:
-            auto;
+                line-height:
+                    1;
 
-        padding:
-            22px;
+                letter-spacing:
+                    .9px;
 
-        border-radius:
-            18px;
+            }
 
-    }
 
-    .service-number {
+            .eyebrow-dot {
 
-        margin-bottom:
-            19px;
+                width:
+                    6px;
 
-    }
+                height:
+                    6px;
 
-    .service-icon {
+                flex:
+                    0 0 6px;
 
-        width:
-            46px;
+            }
 
-        height:
-            46px;
 
-        margin-bottom:
-            17px;
+            /* -----------------------------------------------
+               HERO TITLE
+            ----------------------------------------------- */
 
-        border-radius:
-            13px;
+            .hero h1 {
 
-    }
+                margin:
+                    0 0 17px;
 
-    .service-card h3 {
+                font-size:
+                    clamp(42px,12vw,56px);
 
-        font-size:
-            18px;
+                line-height:
+                    .94;
 
-    }
+                letter-spacing:
+                    -2px;
 
-    .service-card p {
+                position:
+                    relative;
 
-        font-size:
-            12px;
+                z-index:
+                    2;
 
-        line-height:
-            1.65;
+            }
 
-    }
 
+            .hero h1 span {
 
-    /* ABOUT */
+                display:
+                    inline-block;
 
-    .about-grid {
+            }
 
-        gap:
-            35px;
 
-    }
+            /* -----------------------------------------------
+               HERO TEXT
+            ----------------------------------------------- */
 
-    .about-visual {
+            .hero-description {
 
-        width:
-            100%;
+                max-width:
+                    none;
 
-        min-height:
-            350px;
+                margin:
+                    0 0 20px;
 
-        padding:
-            27px;
+                font-size:
+                    13px;
 
-        border-radius:
-            23px;
+                line-height:
+                    1.68;
 
-    }
+            }
 
-    .about-visual::after {
 
-        font-size:
-            100px;
+            /* -----------------------------------------------
+               HERO BUTTONS
+            ----------------------------------------------- */
 
-        right:
-            -5px;
+            .hero-buttons {
 
-    }
+                display:
+                    grid;
 
-    .about-box h3 {
+                grid-template-columns:
+                    1fr;
 
-        font-size:
-            37px;
+                gap:
+                    8px;
 
-    }
+            }
 
-    .about-box p {
 
-        font-size:
-            12px;
+            .hero-buttons .btn {
 
-    }
+                width:
+                    100%;
 
-    .about-content h2 {
+                min-height:
+                    47px;
 
-        font-size:
-            clamp(35px,10vw,46px);
+                padding:
+                    0 14px;
 
-    }
+                border-radius:
+                    13px;
 
-    .about-content > p {
+                font-size:
+                    11px;
 
-        font-size:
-            13px;
+            }
 
-        line-height:
-            1.7;
 
-    }
+            /* -----------------------------------------------
+               SOCIAL BUTTONS
+            ----------------------------------------------- */
 
-    .check-list {
+            .social-links {
 
-        gap:
-            14px;
+                display:
+                    grid;
 
-    }
+                grid-template-columns:
+                    1fr 1fr;
 
-    .check-icon {
+                gap:
+                    7px;
 
-        width:
-            26px;
+                margin-top:
+                    9px;
 
-        height:
-            26px;
+            }
 
-        flex-basis:
-            26px;
 
-    }
+            .social-link {
 
-    .check strong {
+                width:
+                    100%;
 
-        font-size:
-            12px;
+                min-height:
+                    39px;
 
-    }
+                padding:
+                    0 6px;
 
-    .check span {
+                border-radius:
+                    10px;
 
-        font-size:
-            10px;
+                font-size:
+                    9px;
 
-    }
+            }
 
 
-    /* PROCESS */
+            .social-link svg {
 
-    .process-grid {
+                width:
+                    16px;
 
-        grid-template-columns:
-            1fr;
+                height:
+                    16px;
 
-        gap:
-            15px;
+            }
 
-    }
 
-    .process-card {
+            /* -----------------------------------------------
+               LOGO
+            ----------------------------------------------- */
 
-        border-radius:
-            18px;
+            .hero-visual {
 
-    }
+                width:
+                    100%;
 
-    .process-image {
+                margin:
+                    0;
 
-        height:
-            190px;
+                position:
+                    relative;
 
-    }
+            }
 
-    .process-content {
 
-        padding:
-            20px;
+            .logo-card {
 
-    }
+                width:
+                    100%;
 
-    .process-content h3 {
+                padding:
+                    15px;
 
-        font-size:
-            19px;
+                border-radius:
+                    20px;
 
-    }
+                box-shadow:
+                    0 16px 40px
+                    rgba(9,43,80,.10);
 
-    .process-content p {
+            }
 
-        font-size:
-            12px;
 
-    }
+            .logo-card img {
 
+                width:
+                    min(285px,100%);
 
-    /* AD CTA */
+                margin:
+                    auto;
 
-    .ad-cta {
+            }
 
-        padding:
-            60px 0;
 
-    }
+            .floating-card {
 
-    .ad-box {
+                display:
+                    none;
 
-        min-height:
-            540px;
+            }
 
-        border-radius:
-            24px;
 
-        align-items:
-            flex-end;
+            /* -----------------------------------------------
+               TRUST
+            ----------------------------------------------- */
 
-        background-position:
-            center;
+            .trust {
 
-    }
+                padding:
+                    18px 0;
 
-    .ad-box::before {
+            }
 
-        background:
-            linear-gradient(
-                180deg,
-                rgba(6,29,55,.32),
-                rgba(6,29,55,.94)
-            );
 
-    }
+            .trust-grid {
 
-    .ad-content {
+                grid-template-columns:
+                    1fr 1fr;
 
-        width:
-            100%;
+                gap:
+                    16px 4px;
 
-        padding:
-            28px 22px 30px;
+            }
 
-    }
 
-    .ad-content small {
+            .trust-item {
 
-        font-size:
-            8px;
+                border:
+                    none;
 
-    }
+            }
 
-    .ad-content h2 {
 
-        font-size:
-            clamp(37px,11vw,50px);
+            .trust-item strong {
 
-        line-height:
-            .98;
+                font-size:
+                    15px;
 
-    }
+            }
 
-    .ad-content p {
 
-        font-size:
-            12px;
+            .trust-item span {
 
-        line-height:
-            1.7;
+                font-size:
+                    7px;
 
-    }
+                letter-spacing:
+                    .9px;
 
-    .ad-actions {
+            }
 
-        display:
-            grid;
 
-        grid-template-columns:
-            1fr;
+            /* -----------------------------------------------
+               SECTIONS
+            ----------------------------------------------- */
 
-        gap:
-            8px;
+            section {
 
-    }
+                padding:
+                    58px 0;
 
-    .ad-actions .btn {
+            }
 
-        width:
-            100%;
 
-    }
+            .section-head {
 
+                margin-bottom:
+                    28px;
 
-    /* CONTACT */
+            }
 
-    .contact-grid {
 
-        gap:
-            35px;
+            .section-tag {
 
-    }
+                font-size:
+                    8px;
 
-    .contact-left h2 {
+                letter-spacing:
+                    1.7px;
 
-        font-size:
-            clamp(37px,10vw,48px);
+            }
 
-    }
 
-    .contact-left > p {
+            .section-head h2 {
 
-        font-size:
-            13px;
+                font-size:
+                    clamp(33px,9.5vw,45px);
 
-        line-height:
-            1.7;
+                line-height:
+                    1.04;
 
-    }
+                letter-spacing:
+                    -1.3px;
 
-    .contact-card {
+            }
 
-        padding:
-            18px;
 
-        border-radius:
-            20px;
+            .section-head p {
 
-    }
+                font-size:
+                    12px;
 
-    .contact-row {
+                line-height:
+                    1.7;
 
-        grid-template-columns:
-            43px 1fr;
+            }
 
-        gap:
-            11px;
 
-        padding:
-            12px 0;
+            /* -----------------------------------------------
+               SERVICES
+            ----------------------------------------------- */
 
-    }
+            .service-grid {
 
-    .contact-icon {
+                grid-template-columns:
+                    1fr;
 
-        width:
-            42px;
+                gap:
+                    11px;
 
-        height:
-            42px;
+            }
 
-        border-radius:
-            12px;
 
-    }
+            .service-card {
 
-    .contact-icon svg {
+                min-height:
+                    auto;
 
-        width:
-            18px;
+                padding:
+                    20px;
 
-        height:
-            18px;
+                border-radius:
+                    16px;
 
-    }
+            }
 
-    .contact-row h4 {
 
-        font-size:
-            11px;
+            .service-number {
 
-    }
+                margin-bottom:
+                    16px;
 
-    .contact-row a {
+            }
 
-        font-size:
-            11px;
 
-    }
+            .service-icon {
 
-    .contact-socials {
+                width:
+                    44px;
 
-        display:
-            grid;
+                height:
+                    44px;
 
-        grid-template-columns:
-            1fr 1fr;
+                margin-bottom:
+                    15px;
 
-    }
+                border-radius:
+                    12px;
 
-    .contact-social {
+                font-size:
+                    14px;
 
-        width:
-            100%;
+            }
 
-        padding:
-            0 7px;
 
-        font-size:
-            10px;
+            .service-card h3 {
 
-    }
+                font-size:
+                    17px;
 
+            }
 
-    /* FOOTER */
 
-    footer {
+            .service-card p {
 
-        padding:
-            50px 0 25px;
+                font-size:
+                    11px;
 
-    }
+                line-height:
+                    1.65;
 
-    .footer-grid {
+            }
 
-        grid-template-columns:
-            1fr;
 
-        gap:
-            35px;
+            /* -----------------------------------------------
+               ABOUT
+            ----------------------------------------------- */
 
-    }
+            .about-grid {
 
-    .footer-logo {
+                grid-template-columns:
+                    1fr;
 
-        width:
-            190px;
+                gap:
+                    30px;
 
-    }
+            }
 
-    .footer-about {
 
-        font-size:
-            11px;
+            .about-visual {
 
-    }
+                width:
+                    100%;
 
-    .footer-socials {
+                min-height:
+                    315px;
 
-        margin-top:
-            16px;
+                padding:
+                    24px;
 
-    }
+                border-radius:
+                    21px;
 
-    .copyright {
+            }
 
-        flex-direction:
-            column;
 
-        font-size:
-            8px;
+            .about-visual::before {
 
-        line-height:
-            1.6;
+                width:
+                    220px;
 
-    }
+                height:
+                    220px;
 
+            }
 
-    /* DESKTOP WHATSAPP HIDDEN */
 
-    .whatsapp-float {
+            .about-visual::after {
 
-        display:
-            none;
+                font-size:
+                    96px;
 
-    }
+            }
 
 
-    /* MOBILE BOTTOM BAR */
+            .about-box h3 {
 
-    .mobile-bottom-bar {
+                font-size:
+                    34px;
 
-        position:
-            fixed;
+            }
 
-        left:
-            0;
 
-        right:
-            0;
+            .about-box p {
 
-        bottom:
-            0;
+                font-size:
+                    11px;
 
-        z-index:
-            1800;
+            }
 
-        display:
-            grid;
 
-        grid-template-columns:
-            repeat(3,1fr);
+            .about-content h2 {
 
-        gap:
-            6px;
+                font-size:
+                    clamp(34px,9.5vw,45px);
 
-        padding:
-            7px;
+            }
 
-        padding-bottom:
-            calc(
-                7px + env(safe-area-inset-bottom)
-            );
 
-        background:
-            rgba(255,255,255,.96);
+            .about-content > p {
 
-        backdrop-filter:
-            blur(16px);
+                font-size:
+                    12px;
 
-        -webkit-backdrop-filter:
-            blur(16px);
+                line-height:
+                    1.7;
 
-        border-top:
-            1px solid
-            rgba(9,43,80,.09);
+            }
 
-        box-shadow:
-            0 -8px 25px
-            rgba(9,43,80,.07);
 
-    }
+            .check-list {
 
-    .mobile-bottom-link {
+                gap:
+                    13px;
 
-        min-height:
-            50px;
+            }
 
-        display:
-            flex;
 
-        align-items:
-            center;
+            .check-icon {
 
-        justify-content:
-            center;
+                width:
+                    25px;
 
-        gap:
-            5px;
+                height:
+                    25px;
 
-        border-radius:
-            12px;
+                flex-basis:
+                    25px;
 
-        background:
-            var(--bg-soft);
+            }
 
-        color:
-            var(--navy);
 
-        font-size:
-            9px;
+            .check strong {
 
-        font-weight:
-            900;
+                font-size:
+                    12px;
 
-    }
+            }
 
-    .mobile-bottom-link svg {
 
-        width:
-            17px;
+            .check span {
 
-        height:
-            17px;
+                font-size:
+                    10px;
 
-        fill:
-            currentColor;
+            }
 
-    }
 
-    .mobile-bottom-link.call {
+            /* -----------------------------------------------
+               PROCESS
+            ----------------------------------------------- */
 
-        color:
-            var(--blue);
+            .process-grid {
 
-    }
+                grid-template-columns:
+                    1fr;
 
-    .mobile-bottom-link.whatsapp {
+                gap:
+                    13px;
 
-        color:
-            #25D366;
+            }
 
-    }
 
-    .mobile-bottom-link.email {
+            .process-card {
 
-        color:
-            var(--orange);
+                border-radius:
+                    17px;
 
-    }
+            }
 
-}
 
+            .process-image {
 
-/* =========================================================
-   VERY SMALL PHONES
-========================================================= */
+                height:
+                    178px;
 
-@media (max-width: 380px) {
+            }
 
-    .container {
 
-        width:
-            90%;
+            .process-content {
 
-    }
+                padding:
+                    18px;
 
-    .brand img {
+            }
 
-        width:
-            145px;
 
-    }
+            .process-content h3 {
 
-    .header-call {
+                font-size:
+                    18px;
 
-        min-height:
-            38px;
+            }
 
-        padding:
-            0 10px;
 
-        font-size:
-            9px;
+            .process-content p {
 
-    }
+                font-size:
+                    11px;
 
-    .mobile-menu-button {
+                line-height:
+                    1.65;
 
-        width:
-            40px;
+            }
 
-        height:
-            40px;
 
-    }
+            /* -----------------------------------------------
+               ADVERTISEMENT CTA
+            ----------------------------------------------- */
 
-    .hero {
+            .ad-cta {
 
-        padding-top:
-            98px;
+                padding:
+                    52px 0;
 
-    }
+            }
 
-    .hero h1 {
 
-        font-size:
-            43px;
+            .ad-box {
 
-    }
+                min-height:
+                    510px;
 
-    .hero-description {
+                align-items:
+                    flex-end;
 
-        font-size:
-            13px;
+                border-radius:
+                    22px;
 
-    }
+                background-position:
+                    center;
 
-    .logo-card {
+            }
 
-        padding:
-            15px;
 
-    }
+            .ad-box::before {
 
-    .trust-grid {
+                background:
+                    linear-gradient(
+                        180deg,
+                        rgba(6,29,55,.20),
+                        rgba(6,29,55,.95)
+                    );
 
-        gap:
-            15px 2px;
+            }
 
-    }
 
-    .service-card {
+            .ad-content {
 
-        padding:
-            19px;
+                width:
+                    100%;
 
-    }
+                padding:
+                    27px 20px 28px;
 
-    .about-visual {
+            }
 
-        min-height:
-            320px;
 
-        padding:
-            23px;
+            .ad-content small {
 
-    }
+                font-size:
+                    8px;
 
-    .about-box h3 {
+                letter-spacing:
+                    1.5px;
 
-        font-size:
-            33px;
+            }
 
-    }
 
-    .ad-box {
+            .ad-content h2 {
 
-        min-height:
-            500px;
+                font-size:
+                    clamp(36px,10.5vw,49px);
 
-    }
+                line-height:
+                    .98;
 
-    .ad-content h2 {
+                letter-spacing:
+                    -1.5px;
 
-        font-size:
-            35px;
+            }
 
-    }
 
-}
+            .ad-content p {
 
+                font-size:
+                    11px;
 
-/* =========================================================
-   REDUCE MOTION
-========================================================= */
+                line-height:
+                    1.65;
 
-@media (prefers-reduced-motion: reduce) {
+                margin-bottom:
+                    20px;
 
-    html {
+            }
 
-        scroll-behavior:
-            auto;
 
-    }
+            .ad-actions {
 
-    *,
-    *::before,
-    *::after {
+                display:
+                    grid;
 
-        transition:
-            none !important;
+                grid-template-columns:
+                    1fr;
 
-        animation:
-            none !important;
+                gap:
+                    8px;
 
-    }
+            }
 
-}
 
-</style>
+            .ad-actions .btn {
+
+                width:
+                    100%;
+
+                min-height:
+                    46px;
+
+            }
+
+
+            /* -----------------------------------------------
+               CONTACT
+            ----------------------------------------------- */
+
+            .contact-grid {
+
+                grid-template-columns:
+                    1fr;
+
+                gap:
+                    30px;
+
+            }
+
+
+            .contact-left h2 {
+
+                font-size:
+                    clamp(36px,10vw,48px);
+
+                line-height:
+                    1.02;
+
+            }
+
+
+            .contact-left > p {
+
+                font-size:
+                    12px;
+
+                line-height:
+                    1.7;
+
+            }
+
+
+            .contact-card {
+
+                padding:
+                    17px;
+
+                border-radius:
+                    18px;
+
+            }
+
+
+            .contact-row {
+
+                grid-template-columns:
+                    41px 1fr;
+
+                gap:
+                    10px;
+
+                padding:
+                    11px 0;
+
+            }
+
+
+            .contact-icon {
+
+                width:
+                    40px;
+
+                height:
+                    40px;
+
+            }
+
+
+            .contact-icon svg {
+
+                width:
+                    18px;
+
+                height:
+                    18px;
+
+            }
+
+
+            .contact-label {
+
+                font-size:
+                    10px;
+
+            }
+
+
+            .contact-value {
+
+                font-size:
+                    10px;
+
+            }
+
+
+            .contact-socials {
+
+                display:
+                    grid;
+
+                grid-template-columns:
+                    1fr 1fr;
+
+                gap:
+                    7px;
+
+            }
+
+
+            .contact-socials .social-link {
+
+                width:
+                    100%;
+
+            }
+
+
+            /* -----------------------------------------------
+               FOOTER
+            ----------------------------------------------- */
+
+            footer {
+
+                padding:
+                    48px 0 20px;
+
+            }
+
+
+            .footer-grid {
+
+                grid-template-columns:
+                    1fr;
+
+                gap:
+                    30px;
+
+            }
+
+
+            .footer-logo {
+
+                width:
+                    185px;
+
+            }
+
+
+            .footer-about {
+
+                font-size:
+                    10px;
+
+            }
+
+
+            .copyright {
+
+                flex-direction:
+                    column;
+
+                gap:
+                    5px;
+
+                font-size:
+                    8px;
+
+            }
+
+
+            /* -----------------------------------------------
+               DESKTOP WHATSAPP OFF
+            ----------------------------------------------- */
+
+            .whatsapp-float {
+
+                display:
+                    none;
+
+            }
+
+
+            /* -----------------------------------------------
+               MOBILE BOTTOM BAR
+            ----------------------------------------------- */
+
+            .mobile-bottom-bar {
+
+                position:
+                    fixed;
+
+                left:
+                    0;
+
+                right:
+                    0;
+
+                bottom:
+                    0;
+
+                z-index:
+                    99999;
+
+                display:
+                    grid;
+
+                grid-template-columns:
+                    repeat(3,1fr);
+
+                gap:
+                    5px;
+
+                padding:
+                    6px;
+
+                padding-bottom:
+                    calc(
+                        6px +
+                        env(safe-area-inset-bottom)
+                    );
+
+                background:
+                    rgba(255,255,255,.97);
+
+                backdrop-filter:
+                    blur(16px);
+
+                -webkit-backdrop-filter:
+                    blur(16px);
+
+                border-top:
+                    1px solid
+                    rgba(9,43,80,.09);
+
+                box-shadow:
+                    0 -8px 25px
+                    rgba(9,43,80,.07);
+
+            }
+
+
+            .mobile-bottom-link {
+
+                min-height:
+                    48px;
+
+                display:
+                    flex;
+
+                align-items:
+                    center;
+
+                justify-content:
+                    center;
+
+                gap:
+                    5px;
+
+                border-radius:
+                    10px;
+
+                background:
+                    var(--bg-soft);
+
+                font-size:
+                    9px;
+
+                font-weight:
+                    900;
+
+            }
+
+
+            .mobile-bottom-link svg {
+
+                width:
+                    17px;
+
+                height:
+                    17px;
+
+            }
+
+
+            .mobile-call {
+
+                color:
+                    var(--phone-green);
+
+            }
+
+
+            .mobile-whatsapp {
+
+                color:
+                    var(--whatsapp-green);
+
+            }
+
+
+            .mobile-email {
+
+                color:
+                    var(--email-red);
+
+            }
+
+        }
+
+
+        /* =====================================================
+           SMALL PHONES
+        ===================================================== */
+
+        @media (max-width:380px) {
+
+            .container {
+
+                width:
+                    91%;
+
+            }
+
+
+            .brand img {
+
+                width:
+                    120px;
+
+            }
+
+
+            .header-call {
+
+                min-height:
+                    31px;
+
+                height:
+                    31px;
+
+                padding:
+                    0 9px;
+
+                font-size:
+                    8px;
+
+            }
+
+
+            .mobile-menu-button {
+
+                width:
+                    33px;
+
+                height:
+                    33px;
+
+            }
+
+
+            .hero {
+
+                padding:
+                    78px 0 38px;
+
+            }
+
+
+            .eyebrow {
+
+                font-size:
+                    7px;
+
+                letter-spacing:
+                    .7px;
+
+            }
+
+
+            .hero h1 {
+
+                font-size:
+                    40px;
+
+                letter-spacing:
+                    -1.8px;
+
+            }
+
+
+            .hero-description {
+
+                font-size:
+                    12px;
+
+            }
+
+
+            .logo-card {
+
+                padding:
+                    12px;
+
+            }
+
+
+            .logo-card img {
+
+                width:
+                    min(260px,100%);
+
+            }
+
+
+            .social-link {
+
+                font-size:
+                    8px;
+
+            }
+
+
+            .about-visual {
+
+                min-height:
+                    300px;
+
+                padding:
+                    22px;
+
+            }
+
+
+            .about-box h3 {
+
+                font-size:
+                    32px;
+
+            }
+
+
+            .ad-box {
+
+                min-height:
+                    480px;
+
+            }
+
+
+            .ad-content h2 {
+
+                font-size:
+                    34px;
+
+            }
+
+        }
+
+    </style>
 
 </head>
 
@@ -3906,15 +4134,20 @@ footer li a:hover {
      HEADER
 ========================================================= -->
 
-<header class="site-header" id="siteHeader">
+<header
+    class="site-header"
+    id="siteHeader"
+>
 
     <div class="container navbar">
 
 
+        <!-- LOGO -->
+
         <a
             href="#home"
             class="brand"
-            aria-label="Toshani Media House home"
+            aria-label="Toshani Media House Home"
         >
 
             <img
@@ -3929,17 +4162,21 @@ footer li a:hover {
 
         <nav class="desktop-nav">
 
+
             <a href="#home">
                 Home
             </a>
+
 
             <a href="#services">
                 Services
             </a>
 
+
             <a href="#about">
                 Why Us
             </a>
+
 
             <a href="#process">
                 Process
@@ -3950,7 +4187,7 @@ footer li a:hover {
 
             <a
                 href="https://www.instagram.com/toshanimediahouse/"
-                class="social-icon instagram"
+                class="nav-social"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -3958,7 +4195,66 @@ footer li a:hover {
 
                 <svg viewBox="0 0 24 24">
 
-                    <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zm8.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                    <defs>
+
+                        <linearGradient
+                            id="ig-header"
+                            x1="0"
+                            y1="1"
+                            x2="1"
+                            y2="0"
+                        >
+
+                            <stop
+                                offset="0%"
+                                stop-color="#FFDC80"
+                            />
+
+                            <stop
+                                offset="35%"
+                                stop-color="#F77737"
+                            />
+
+                            <stop
+                                offset="65%"
+                                stop-color="#E1306C"
+                            />
+
+                            <stop
+                                offset="100%"
+                                stop-color="#833AB4"
+                            />
+
+                        </linearGradient>
+
+                    </defs>
+
+                    <rect
+                        x="3"
+                        y="3"
+                        width="18"
+                        height="18"
+                        rx="5"
+                        fill="none"
+                        stroke="url(#ig-header)"
+                        stroke-width="2"
+                    />
+
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="4"
+                        fill="none"
+                        stroke="url(#ig-header)"
+                        stroke-width="2"
+                    />
+
+                    <circle
+                        cx="17.2"
+                        cy="6.8"
+                        r="1.15"
+                        fill="#E1306C"
+                    />
 
                 </svg>
 
@@ -3969,15 +4265,20 @@ footer li a:hover {
 
             <a
                 href="https://www.linkedin.com/search/results/companies/?keywords=Toshani%20Media%20House"
-                class="social-icon linkedin"
+                class="nav-social"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
             >
 
-                <svg viewBox="0 0 24 24">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="#0A66C2"
+                >
 
-                    <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 .78 0 24 1.78 24h20.44c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0z"/>
+                    <path
+                        d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"
+                    />
 
                 </svg>
 
@@ -3991,9 +4292,14 @@ footer li a:hover {
                 class="header-call"
             >
 
-                <svg viewBox="0 0 24 24">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="#ffffff"
+                >
 
-                    <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"/>
+                    <path
+                        d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"
+                    />
 
                 </svg>
 
@@ -4006,7 +4312,8 @@ footer li a:hover {
 
         <!-- MOBILE HEADER -->
 
-        <div class="mobile-header-actions">
+        <div class="mobile-actions">
+
 
             <a
                 href="tel:+919966196013"
@@ -4019,16 +4326,20 @@ footer li a:hover {
 
 
             <button
+                type="button"
                 class="mobile-menu-button"
                 id="menuButton"
-                aria-label="Open menu"
+                aria-label="Open navigation menu"
                 aria-expanded="false"
-                type="button"
             >
 
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="menu-lines">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </span>
 
             </button>
 
@@ -4046,23 +4357,33 @@ footer li a:hover {
 
         <a href="#home">
             Home
+            <span>→</span>
         </a>
+
 
         <a href="#services">
             Services
+            <span>→</span>
         </a>
+
 
         <a href="#about">
             Why Us
+            <span>→</span>
         </a>
+
 
         <a href="#process">
             Process
+            <span>→</span>
         </a>
+
 
         <a href="#contact">
             Contact
+            <span>→</span>
         </a>
+
 
         <a
             href="https://www.instagram.com/toshanimediahouse/"
@@ -4073,6 +4394,7 @@ footer li a:hover {
             <span>↗</span>
         </a>
 
+
         <a
             href="https://www.linkedin.com/search/results/companies/?keywords=Toshani%20Media%20House"
             target="_blank"
@@ -4082,9 +4404,10 @@ footer li a:hover {
             <span>↗</span>
         </a>
 
+
         <a
             href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House,%20I%20would%20like%20to%20discuss%20advertising."
-            class="mobile-menu-cta"
+            class="menu-whatsapp"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -4110,32 +4433,41 @@ footer li a:hover {
 
 <section class="hero">
 
+
     <div class="container hero-grid">
 
 
         <div class="hero-copy">
 
 
+            <!-- 360 BADGE -->
+
             <div class="eyebrow">
 
-                <span></span>
+                <span class="eyebrow-dot"></span>
 
-                360° Advertising & Brand Growth
+                <span>
+                    360° Advertising & Brand Growth
+                </span>
 
             </div>
 
+
+            <!-- TITLE -->
 
             <h1>
 
                 We Advertise.
                 <br>
 
-                <span class="orange">
+                <span>
                     You Grow.
                 </span>
 
             </h1>
 
+
+            <!-- DESCRIPTION -->
 
             <p class="hero-description">
 
@@ -4150,14 +4482,16 @@ footer li a:hover {
 
                 <br><br>
 
-                Toshani Media House helps businesses
-                create powerful brand visibility through
-                television, radio, print, outdoor,
-                moving vehicle advertising and digital
-                marketing.
+                Toshani Media House connects brands
+                with audiences through television,
+                radio, newspapers, outdoor advertising,
+                moving vehicle campaigns and
+                digital marketing.
 
             </p>
 
+
+            <!-- CTA -->
 
             <div class="hero-buttons">
 
@@ -4169,21 +4503,28 @@ footer li a:hover {
 
                     Explore Services
 
-                    <span>→</span>
+                    <span>
+                        →
+                    </span>
 
                 </a>
 
 
                 <a
-                    href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House,%20I%20want%20to%20discuss%20an%20advertising%20campaign."
-                    class="btn btn-outline"
+                    href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House,%20I%20would%20like%20to%20discuss%20an%20advertising%20campaign."
+                    class="btn btn-light"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#25D366"
+                    >
 
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.198.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+                        />
 
                     </svg>
 
@@ -4194,19 +4535,85 @@ footer li a:hover {
             </div>
 
 
-            <div class="hero-social">
+            <!-- SOCIAL LINKS -->
 
+            <div class="social-links">
+
+
+                <!-- INSTAGRAM -->
 
                 <a
                     href="https://www.instagram.com/toshanimediahouse/"
-                    class="social-button instagram-button"
+                    class="social-link instagram-link"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
 
                     <svg viewBox="0 0 24 24">
 
-                        <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zm8.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                        <defs>
+
+                            <linearGradient
+                                id="ig-hero"
+                                x1="0"
+                                y1="1"
+                                x2="1"
+                                y2="0"
+                            >
+
+                                <stop
+                                    offset="0%"
+                                    stop-color="#FFDC80"
+                                />
+
+                                <stop
+                                    offset="35%"
+                                    stop-color="#F77737"
+                                />
+
+                                <stop
+                                    offset="65%"
+                                    stop-color="#E1306C"
+                                />
+
+                                <stop
+                                    offset="100%"
+                                    stop-color="#833AB4"
+                                />
+
+                            </linearGradient>
+
+                        </defs>
+
+
+                        <rect
+                            x="3"
+                            y="3"
+                            width="18"
+                            height="18"
+                            rx="5"
+                            fill="none"
+                            stroke="url(#ig-hero)"
+                            stroke-width="2"
+                        />
+
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="4"
+                            fill="none"
+                            stroke="url(#ig-hero)"
+                            stroke-width="2"
+                        />
+
+
+                        <circle
+                            cx="17.2"
+                            cy="6.8"
+                            r="1.15"
+                            fill="#E1306C"
+                        />
 
                     </svg>
 
@@ -4215,16 +4622,23 @@ footer li a:hover {
                 </a>
 
 
+                <!-- LINKEDIN -->
+
                 <a
                     href="https://www.linkedin.com/search/results/companies/?keywords=Toshani%20Media%20House"
-                    class="social-button linkedin-button"
+                    class="social-link linkedin-link"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#0A66C2"
+                    >
 
-                        <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 .78 0 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"/>
+                        <path
+                            d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"
+                        />
 
                     </svg>
 
@@ -4233,14 +4647,21 @@ footer li a:hover {
                 </a>
 
 
+                <!-- EMAIL -->
+
                 <a
                     href="mailto:contact@thoshanimedia.com"
-                    class="social-button email-button"
+                    class="social-link email-link"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#D44638"
+                    >
 
-                        <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+                        <path
+                            d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                        />
 
                     </svg>
 
@@ -4252,6 +4673,8 @@ footer li a:hover {
 
         </div>
 
+
+        <!-- LOGO VISUAL -->
 
         <div class="hero-visual">
 
@@ -4306,6 +4729,7 @@ footer li a:hover {
 
     <div class="container trust-grid">
 
+
         <div class="trust-item">
 
             <strong>
@@ -4317,6 +4741,7 @@ footer li a:hover {
             </span>
 
         </div>
+
 
         <div class="trust-item">
 
@@ -4330,6 +4755,7 @@ footer li a:hover {
 
         </div>
 
+
         <div class="trust-item">
 
             <strong>
@@ -4341,6 +4767,7 @@ footer li a:hover {
             </span>
 
         </div>
+
 
         <div class="trust-item">
 
@@ -4378,6 +4805,7 @@ footer li a:hover {
                 Our Services
             </div>
 
+
             <h2>
 
                 Put Your Brand
@@ -4389,11 +4817,13 @@ footer li a:hover {
 
             </h2>
 
+
             <p>
 
-                From mass media to digital campaigns,
-                we build powerful touchpoints that put
-                your brand in front of the right audience.
+                From traditional media to modern
+                digital campaigns, we create powerful
+                touchpoints that make brands visible,
+                memorable and valuable.
 
             </p>
 
@@ -4418,8 +4848,8 @@ footer li a:hover {
                 </h3>
 
                 <p>
-                    Build mass awareness and reach a
-                    larger audience through strategic
+                    Reach a mass audience and build
+                    powerful brand awareness through
                     television advertising.
                 </p>
 
@@ -4442,8 +4872,8 @@ footer li a:hover {
 
                 <p>
                     Build credibility, visibility and
-                    brand recall through targeted
-                    newspaper and print advertising.
+                    brand recall through newspaper
+                    and print advertising.
                 </p>
 
             </article>
@@ -4464,9 +4894,9 @@ footer li a:hover {
                 </h3>
 
                 <p>
-                    Take your message on the move with
-                    high-visibility moving vehicle and
-                    KSRTC advertising.
+                    Take your advertising message
+                    on the move with high-visibility
+                    vehicle campaigns.
                 </p>
 
             </article>
@@ -4487,9 +4917,9 @@ footer li a:hover {
                 </h3>
 
                 <p>
-                    Connect, engage and convert your
-                    audience through focused digital
-                    and social media campaigns.
+                    Connect and engage customers
+                    through focused digital and
+                    social media campaigns.
                 </p>
 
             </article>
@@ -4510,9 +4940,9 @@ footer li a:hover {
                 </h3>
 
                 <p>
-                    Create powerful outdoor visibility
-                    with billboard advertising designed
-                    for maximum brand recall.
+                    Create high-impact outdoor
+                    visibility with strategically
+                    planned billboard advertising.
                 </p>
 
             </article>
@@ -4533,9 +4963,9 @@ footer li a:hover {
                 </h3>
 
                 <p>
-                    Build familiarity and reach local
-                    audiences through effective radio
-                    advertising campaigns.
+                    Reach local audiences and build
+                    familiarity through effective
+                    radio advertising.
                 </p>
 
             </article>
@@ -4556,9 +4986,9 @@ footer li a:hover {
                 </h3>
 
                 <p>
-                    Creative advertising campaigns
-                    designed around your business
-                    objective and target audience.
+                    Creative campaigns built around
+                    your business objectives and
+                    target audience.
                 </p>
 
             </article>
@@ -4614,6 +5044,7 @@ footer li a:hover {
                     OUR PHILOSOPHY
                 </span>
 
+
                 <h3>
 
                     Powerful
@@ -4625,6 +5056,7 @@ footer li a:hover {
                     Impact.
 
                 </h3>
+
 
                 <p>
 
@@ -4645,10 +5077,14 @@ footer li a:hover {
                 Why Toshani
             </div>
 
+
             <h2>
+
                 From Visibility
                 To Brand Value.
+
             </h2>
+
 
             <p>
 
@@ -4676,7 +5112,7 @@ footer li a:hover {
                         </strong>
 
                         <span>
-                            Every campaign starts with
+                            Every campaign begins with
                             a clear business objective.
                         </span>
 
@@ -4778,6 +5214,7 @@ footer li a:hover {
                 Our Process
             </div>
 
+
             <h2>
 
                 Strategy.
@@ -4788,10 +5225,11 @@ footer li a:hover {
 
             </h2>
 
+
             <p>
 
-                Four simple stages transform your
-                advertising objective into a focused
+                Four focused stages transform your
+                advertising objective into a powerful
                 brand campaign.
 
             </p>
@@ -4802,6 +5240,8 @@ footer li a:hover {
         <div class="process-grid">
 
 
+            <!-- STEP 01 -->
+
             <article class="process-card">
 
                 <img
@@ -4811,15 +5251,18 @@ footer li a:hover {
                     loading="lazy"
                 >
 
+
                 <div class="process-content">
 
                     <div class="process-number">
                         01 / UNDERSTAND
                     </div>
 
+
                     <h3>
                         Understand
                     </h3>
+
 
                     <p>
 
@@ -4834,14 +5277,17 @@ footer li a:hover {
             </article>
 
 
+            <!-- STEP 02 -->
+
             <article class="process-card">
 
                 <img
                     class="process-image"
                     src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=85"
-                    alt="Creative brainstorming session"
+                    alt="Creative brainstorming"
                     loading="lazy"
                 >
+
 
                 <div class="process-content">
 
@@ -4849,9 +5295,11 @@ footer li a:hover {
                         02 / STRATEGIZE
                     </div>
 
+
                     <h3>
                         Strategize
                     </h3>
+
 
                     <p>
 
@@ -4866,6 +5314,8 @@ footer li a:hover {
             </article>
 
 
+            <!-- STEP 03 -->
+
             <article class="process-card">
 
                 <img
@@ -4875,15 +5325,18 @@ footer li a:hover {
                     loading="lazy"
                 >
 
+
                 <div class="process-content">
 
                     <div class="process-number">
                         03 / EXECUTE
                     </div>
 
+
                     <h3>
                         Execute
                     </h3>
+
 
                     <p>
 
@@ -4898,6 +5351,8 @@ footer li a:hover {
             </article>
 
 
+            <!-- STEP 04 -->
+
             <article class="process-card">
 
                 <img
@@ -4907,15 +5362,18 @@ footer li a:hover {
                     loading="lazy"
                 >
 
+
                 <div class="process-content">
 
                     <div class="process-number">
                         04 / GROW
                     </div>
 
+
                     <h3>
                         Grow
                     </h3>
+
 
                     <p>
 
@@ -4945,13 +5403,17 @@ footer li a:hover {
 
     <div class="container">
 
+
         <div class="ad-box">
 
+
             <div class="ad-content">
+
 
                 <small>
                     Ready For Your Next Campaign?
                 </small>
+
 
                 <h2>
 
@@ -4962,6 +5424,7 @@ footer li a:hover {
                     Unforgettable.
 
                 </h2>
+
 
                 <p>
 
@@ -4976,14 +5439,21 @@ footer li a:hover {
                 <div class="ad-actions">
 
 
+                    <!-- CALL -->
+
                     <a
                         href="tel:+919966196013"
-                        class="btn ad-btn-white"
+                        class="btn ad-call"
                     >
 
-                        <svg viewBox="0 0 24 24">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="#16A34A"
+                        >
 
-                            <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"/>
+                            <path
+                                d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"
+                            />
 
                         </svg>
 
@@ -4992,16 +5462,23 @@ footer li a:hover {
                     </a>
 
 
+                    <!-- WHATSAPP -->
+
                     <a
                         href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House,%20I%20want%20to%20discuss%20an%20advertising%20campaign."
-                        class="btn ad-btn-orange"
+                        class="btn ad-whatsapp"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
 
-                        <svg viewBox="0 0 24 24">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="#ffffff"
+                        >
 
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+                            />
 
                         </svg>
 
@@ -5035,9 +5512,11 @@ footer li a:hover {
 
         <div class="contact-left">
 
+
             <div class="section-tag">
                 Start A Conversation
             </div>
+
 
             <h2>
 
@@ -5049,12 +5528,13 @@ footer li a:hover {
 
             </h2>
 
+
             <p>
 
                 Talk to Toshani Media House about
-                television, radio, newspaper,
-                outdoor, moving vehicle advertising,
-                digital marketing or branding.
+                television, radio, newspapers,
+                outdoor advertising, moving vehicle
+                campaigns, digital marketing or branding.
 
             </p>
 
@@ -5064,9 +5544,14 @@ footer li a:hover {
                 class="btn btn-primary"
             >
 
-                <svg viewBox="0 0 24 24">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="#ffffff"
+                >
 
-                    <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"/>
+                    <path
+                        d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"
+                    />
 
                 </svg>
 
@@ -5080,30 +5565,37 @@ footer li a:hover {
         <div class="contact-card">
 
 
-            <!-- CALL -->
+            <!-- PHONE -->
 
             <div class="contact-row">
 
                 <div class="contact-icon">
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#16A34A"
+                    >
 
-                        <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"/>
+                        <path
+                            d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"
+                        />
 
                     </svg>
 
                 </div>
 
+
                 <div>
 
-                    <h4>
+                    <div class="contact-label">
                         Call Us
-                    </h4>
+                    </div>
 
-                    <a href="tel:+919966196013">
-
+                    <a
+                        href="tel:+919966196013"
+                        class="contact-value"
+                    >
                         +91 99661 96013
-
                     </a>
 
                 </div>
@@ -5117,28 +5609,33 @@ footer li a:hover {
 
                 <div class="contact-icon">
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#25D366"
+                    >
 
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198-.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+                        />
 
                     </svg>
 
                 </div>
 
+
                 <div>
 
-                    <h4>
+                    <div class="contact-label">
                         WhatsApp
-                    </h4>
+                    </div>
 
                     <a
                         href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House,%20I%20would%20like%20to%20discuss%20advertising."
+                        class="contact-value"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-
                         Chat With Us
-
                     </a>
 
                 </div>
@@ -5152,24 +5649,31 @@ footer li a:hover {
 
                 <div class="contact-icon">
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#D44638"
+                    >
 
-                        <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+                        <path
+                            d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                        />
 
                     </svg>
 
                 </div>
 
+
                 <div>
 
-                    <h4>
+                    <div class="contact-label">
                         Email
-                    </h4>
+                    </div>
 
-                    <a href="mailto:contact@thoshanimedia.com">
-
+                    <a
+                        href="mailto:contact@thoshanimedia.com"
+                        class="contact-value"
+                    >
                         contact@thoshanimedia.com
-
                     </a>
 
                 </div>
@@ -5177,19 +5681,85 @@ footer li a:hover {
             </div>
 
 
+            <!-- SOCIAL BUTTONS -->
+
             <div class="contact-socials">
 
 
+                <!-- INSTAGRAM -->
+
                 <a
                     href="https://www.instagram.com/toshanimediahouse/"
-                    class="contact-social contact-instagram"
+                    class="social-link instagram-link"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
 
                     <svg viewBox="0 0 24 24">
 
-                        <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zm8.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                        <defs>
+
+                            <linearGradient
+                                id="ig-contact"
+                                x1="0"
+                                y1="1"
+                                x2="1"
+                                y2="0"
+                            >
+
+                                <stop
+                                    offset="0%"
+                                    stop-color="#FFDC80"
+                                />
+
+                                <stop
+                                    offset="35%"
+                                    stop-color="#F77737"
+                                />
+
+                                <stop
+                                    offset="65%"
+                                    stop-color="#E1306C"
+                                />
+
+                                <stop
+                                    offset="100%"
+                                    stop-color="#833AB4"
+                                />
+
+                            </linearGradient>
+
+                        </defs>
+
+
+                        <rect
+                            x="3"
+                            y="3"
+                            width="18"
+                            height="18"
+                            rx="5"
+                            fill="none"
+                            stroke="url(#ig-contact)"
+                            stroke-width="2"
+                        />
+
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="4"
+                            fill="none"
+                            stroke="url(#ig-contact)"
+                            stroke-width="2"
+                        />
+
+
+                        <circle
+                            cx="17.2"
+                            cy="6.8"
+                            r="1.15"
+                            fill="#E1306C"
+                        />
 
                     </svg>
 
@@ -5198,16 +5768,23 @@ footer li a:hover {
                 </a>
 
 
+                <!-- LINKEDIN -->
+
                 <a
                     href="https://www.linkedin.com/search/results/companies/?keywords=Toshani%20Media%20House"
-                    class="contact-social contact-linkedin"
+                    class="social-link linkedin-link"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#0A66C2"
+                    >
 
-                        <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 .78 0 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"/>
+                        <path
+                            d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 .78.8 0 1.78 0h20.44C23.2 0 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"
+                        />
 
                     </svg>
 
@@ -5216,16 +5793,24 @@ footer li a:hover {
                 </a>
 
 
+                <!-- WHATSAPP -->
+
                 <a
                     href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House."
-                    class="contact-social contact-whatsapp"
+                    class="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
+                    style="color:#25D366;"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="#25D366"
+                    >
 
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+                        />
 
                     </svg>
 
@@ -5254,6 +5839,7 @@ footer li a:hover {
 
     <div class="container">
 
+
         <div class="footer-grid">
 
 
@@ -5265,11 +5851,12 @@ footer li a:hover {
                     class="footer-logo"
                 >
 
+
                 <p class="footer-about">
 
-                    Toshani Media House is a 360°
-                    advertising and brand growth
-                    company helping businesses create
+                    Toshani Media House is a
+                    360° advertising and brand growth
+                    company helping businesses build
                     visibility across traditional,
                     outdoor and digital media.
 
@@ -5279,9 +5866,11 @@ footer li a:hover {
                 <div class="footer-socials">
 
 
+                    <!-- INSTAGRAM -->
+
                     <a
                         href="https://www.instagram.com/toshanimediahouse/"
-                        class="footer-social footer-instagram"
+                        class="footer-social"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
@@ -5289,41 +5878,117 @@ footer li a:hover {
 
                         <svg viewBox="0 0 24 24">
 
-                            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zm8.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                            <defs>
+
+                                <linearGradient
+                                    id="ig-footer"
+                                    x1="0"
+                                    y1="1"
+                                    x2="1"
+                                    y2="0"
+                                >
+
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#FFDC80"
+                                    />
+
+                                    <stop
+                                        offset="35%"
+                                        stop-color="#F77737"
+                                    />
+
+                                    <stop
+                                        offset="65%"
+                                        stop-color="#E1306C"
+                                    />
+
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#833AB4"
+                                    />
+
+                                </linearGradient>
+
+                            </defs>
+
+
+                            <rect
+                                x="3"
+                                y="3"
+                                width="18"
+                                height="18"
+                                rx="5"
+                                fill="none"
+                                stroke="url(#ig-footer)"
+                                stroke-width="2"
+                            />
+
+
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="4"
+                                fill="none"
+                                stroke="url(#ig-footer)"
+                                stroke-width="2"
+                            />
+
+
+                            <circle
+                                cx="17.2"
+                                cy="6.8"
+                                r="1.15"
+                                fill="#E1306C"
+                            />
 
                         </svg>
 
                     </a>
 
 
+                    <!-- LINKEDIN -->
+
                     <a
                         href="https://www.linkedin.com/search/results/companies/?keywords=Toshani%20Media%20House"
-                        class="footer-social footer-linkedin"
+                        class="footer-social"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="LinkedIn"
                     >
 
-                        <svg viewBox="0 0 24 24">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="#0A66C2"
+                        >
 
-                            <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0-4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 .78 0 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"/>
+                            <path
+                                d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.68H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 8.99h3.57v11.46H3.56V8.99zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 .78 0 24 1.78 24h20.44C23.2 24 24 23.22 24 22.26V1.74C24 .78 23.2 0 22.22 0z"
+                            />
 
                         </svg>
 
                     </a>
 
 
+                    <!-- WHATSAPP -->
+
                     <a
                         href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House."
-                        class="footer-social footer-whatsapp"
+                        class="footer-social"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="WhatsApp"
                     >
 
-                        <svg viewBox="0 0 24 24">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="#25D366"
+                        >
 
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.198.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+                            />
 
                         </svg>
 
@@ -5403,6 +6068,12 @@ footer li a:hover {
                         </a>
                     </li>
 
+                    <li>
+                        <a href="#contact">
+                            Contact Us
+                        </a>
+                    </li>
+
                 </ul>
 
             </div>
@@ -5413,13 +6084,12 @@ footer li a:hover {
         <div class="copyright">
 
             <span>
-                © 2026 Toshani Media House.
-                All Rights Reserved.
+                © 2026 Toshani Media House. All Rights Reserved.
             </span>
 
+
             <span>
-                Ideas That Inspire.
-                Campaigns That Deliver.
+                Ideas That Inspire. Campaigns That Deliver.
             </span>
 
         </div>
@@ -5442,9 +6112,14 @@ footer li a:hover {
     aria-label="WhatsApp Toshani Media House"
 >
 
-    <svg viewBox="0 0 24 24">
+    <svg
+        viewBox="0 0 24 24"
+        fill="#ffffff"
+    >
 
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+        <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198-.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+        />
 
     </svg>
 
@@ -5453,20 +6128,27 @@ footer li a:hover {
 
 
 <!-- =========================================================
-     MOBILE BOTTOM CTA
+     MOBILE BOTTOM BAR
 ========================================================= -->
 
 <div class="mobile-bottom-bar">
 
 
+    <!-- CALL -->
+
     <a
         href="tel:+919966196013"
-        class="mobile-bottom-link call"
+        class="mobile-bottom-link mobile-call"
     >
 
-        <svg viewBox="0 0 24 24">
+        <svg
+            viewBox="0 0 24 24"
+            fill="#16A34A"
+        >
 
-            <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"/>
+            <path
+                d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.72 21 3 12.28 3 1.99A1 1 0 0 1 4 1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"
+            />
 
         </svg>
 
@@ -5475,16 +6157,23 @@ footer li a:hover {
     </a>
 
 
+    <!-- WHATSAPP -->
+
     <a
         href="https://wa.me/919966196013?text=Hello%20Toshani%20Media%20House,%20I%20want%20to%20discuss%20advertising."
-        class="mobile-bottom-link whatsapp"
+        class="mobile-bottom-link mobile-whatsapp"
         target="_blank"
         rel="noopener noreferrer"
     >
 
-        <svg viewBox="0 0 24 24">
+        <svg
+            viewBox="0 0 24 24"
+            fill="#25D366"
+        >
 
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347zM12.04 21.97h-.004a9.95 9.95 0 0 1-5.032-1.376l-.361-.214-3.726.977.995-3.631-.235-.373a9.955 9.955 0 1 1 8.363 4.617zm0-18.026a8.06 8.06 0 0 0-6.88 12.227l.327.489-.59 2.157 2.213-.58.47.279a8.05 8.05 0 1 0 4.46-14.572z"/>
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.198.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347z"
+            />
 
         </svg>
 
@@ -5493,14 +6182,21 @@ footer li a:hover {
     </a>
 
 
+    <!-- EMAIL -->
+
     <a
         href="mailto:contact@thoshanimedia.com"
-        class="mobile-bottom-link email"
+        class="mobile-bottom-link mobile-email"
     >
 
-        <svg viewBox="0 0 24 24">
+        <svg
+            viewBox="0 0 24 24"
+            fill="#D44638"
+        >
 
-            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+            <path
+                d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+            />
 
         </svg>
 
@@ -5525,144 +6221,175 @@ const mobileMenu =
     document.getElementById("mobileMenu");
 
 
-menuButton.addEventListener("click", function () {
+menuButton.addEventListener(
+    "click",
+    function () {
 
-    const isOpen =
-        mobileMenu.classList.toggle("open");
+        const isOpen =
+            mobileMenu.classList.toggle("open");
 
-    menuButton.setAttribute(
-        "aria-expanded",
-        isOpen
-    );
+        menuButton.setAttribute(
+            "aria-expanded",
+            isOpen ? "true" : "false"
+        );
 
-});
+    }
+);
 
 
 /* =========================================================
-   CLOSE MOBILE MENU ON LINK CLICK
+   CLOSE MENU AFTER CLICK
 ========================================================= */
 
 document
     .querySelectorAll(".mobile-menu a")
     .forEach(function(link) {
 
-        link.addEventListener("click", function() {
+        link.addEventListener(
+            "click",
+            function() {
 
-            mobileMenu.classList.remove("open");
+                mobileMenu.classList.remove(
+                    "open"
+                );
+
+                menuButton.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
+
+            }
+        );
+
+    });
+
+
+/* =========================================================
+   CLOSE MENU WHEN CLICKING OUTSIDE
+========================================================= */
+
+document.addEventListener(
+    "click",
+    function(event) {
+
+        const clickedMenu =
+            mobileMenu.contains(event.target);
+
+        const clickedButton =
+            menuButton.contains(event.target);
+
+        if (
+            !clickedMenu &&
+            !clickedButton
+        ) {
+
+            mobileMenu.classList.remove(
+                "open"
+            );
 
             menuButton.setAttribute(
                 "aria-expanded",
                 "false"
             );
 
-        });
-
-    });
-
-
-/* =========================================================
-   CLOSE MOBILE MENU WHEN CLICKING OUTSIDE
-========================================================= */
-
-document.addEventListener("click", function(event) {
-
-    const insideMenu =
-        mobileMenu.contains(event.target);
-
-    const insideButton =
-        menuButton.contains(event.target);
-
-    if (
-        !insideMenu &&
-        !insideButton &&
-        mobileMenu.classList.contains("open")
-    ) {
-
-        mobileMenu.classList.remove("open");
-
-        menuButton.setAttribute(
-            "aria-expanded",
-            "false"
-        );
+        }
 
     }
-
-});
+);
 
 
 /* =========================================================
    HEADER SHADOW
 ========================================================= */
 
-const header =
+const siteHeader =
     document.getElementById("siteHeader");
 
-window.addEventListener("scroll", function() {
 
-    if (window.scrollY > 25) {
+window.addEventListener(
+    "scroll",
+    function() {
 
-        header.style.boxShadow =
-            "0 12px 35px rgba(9,43,80,.09)";
+        if (
+            window.scrollY > 20
+        ) {
 
-    } else {
+            siteHeader.style.boxShadow =
+                "0 10px 30px rgba(9,43,80,.09)";
 
-        header.style.boxShadow =
-            "none";
+        } else {
+
+            siteHeader.style.boxShadow =
+                "none";
+
+        }
 
     }
-
-});
+);
 
 
 /* =========================================================
-   SMOOTH ANCHOR SCROLL
+   SMOOTH INTERNAL SCROLL
 ========================================================= */
 
 document
     .querySelectorAll('a[href^="#"]')
     .forEach(function(link) {
 
-        link.addEventListener("click", function(event) {
+        link.addEventListener(
+            "click",
+            function(event) {
 
-            const targetId =
-                this.getAttribute("href");
+                const targetId =
+                    this.getAttribute("href");
 
-            if (
-                !targetId ||
-                targetId === "#"
-            ) {
-                return;
+                if (
+                    !targetId ||
+                    targetId === "#"
+                ) {
+
+                    return;
+
+                }
+
+
+                const target =
+                    document.querySelector(targetId);
+
+
+                if (!target) {
+
+                    return;
+
+                }
+
+
+                event.preventDefault();
+
+
+                const headerHeight =
+                    siteHeader.offsetHeight;
+
+
+                const targetPosition =
+                    target.getBoundingClientRect().top +
+                    window.pageYOffset -
+                    headerHeight -
+                    5;
+
+
+                window.scrollTo({
+
+                    top:
+                        targetPosition,
+
+                    behavior:
+                        "smooth"
+
+                });
+
             }
-
-            const target =
-                document.querySelector(targetId);
-
-            if (!target) {
-                return;
-            }
-
-            event.preventDefault();
-
-            const headerHeight =
-                header.offsetHeight;
-
-            const targetPosition =
-                target.getBoundingClientRect().top +
-                window.pageYOffset -
-                headerHeight -
-                8;
-
-            window.scrollTo({
-
-                top:
-                    targetPosition,
-
-                behavior:
-                    "smooth"
-
-            });
-
-        });
+        );
 
     });
 
@@ -5670,4 +6397,5 @@ document
 
 
 </body>
+
 </html>
